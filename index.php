@@ -8,8 +8,16 @@
 </head>
 <body>
     
-    ainda vou fazer tudo<br>
-    <a href="pags/loginPage.php"> login adm</a>
+<div>
+    <button type="button"> peça online</button>
+    <button type="button"> Cardapio</button>
+    <button type="button"> Sobre nós</button>
+    <button type="button"> carrinho</button>
+    <a href="pags/loginPage.php">
+        <button type="button" > entrar</button>
+    </a>
+
+</div>
 
 </body>
 </html>

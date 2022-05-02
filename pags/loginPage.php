@@ -22,17 +22,20 @@ header('Location:../index.php');
 
 </head>
 <body>
-<h2>Login</h2>
 
-<form method="post" action="loginPage.php">
-    <input type="text" name="Nome" ip="Nome" placeholder="Nome">
-    <br>
-    <input type="text" name="Email" ip="Email" placeholder="Email">
-    <br>
-    <input type="password" name="Senha" ip="Senha" placeholder="Senha">
-    <br>
-    <input type="submit" name="blogin" ip="blogin" value="Entrar">
-</form>
+<div>
+    <h2>Login</h2>
 
+    <form method="post" action="loginPage.php">
+        <input type="text" name="Nome" ip="Nome" placeholder="Nome" required>
+        <br>
+        <input type="text" name="Email" ip="Email" placeholder="Email" required>
+        <br>
+        <input type="password" name="Senha" ip="Senha" placeholder="Senha" required>
+        <br>
+        <input type="submit" name="blogin" ip="blogin" value="Entrar">
+    </form>
+    
+</div>
 </body>
 </html>
