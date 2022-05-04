@@ -22,13 +22,13 @@
         <li class="nav-item">
 
 
-          <a class="nav-link active" aria-current="page" href="pags/cardapio.php">Peça online</a>
+          <a class="nav-link active" aria-current="page" href="cardapio.php">Peça online</a>
         </li>
-        <a class="nav-link active" aria-current="page" href="pags/carrinho.php">Carrinho</a>
+        <a class="nav-link active" aria-current="page" href="carrinho.php">Carrinho</a>
         </li>
-        <a class="nav-link active" aria-current="page" href="pags/sobrenos.php">Sobre nos</a>
+        <a class="nav-link active" aria-current="page" href="sobrenos.php">Sobre nos</a>
         </li>
-        <a class="nav-link active" aria-current="page" href="pags/loginPage.php">Login Temporário</a>
+        <a class="nav-link active" aria-current="page" href="loginPage.php">Login Temporário</a>
         </li>
         
         <form class="d-flex">
