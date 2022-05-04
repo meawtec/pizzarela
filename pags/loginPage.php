@@ -33,16 +33,20 @@ if ((usuario.length >=1) &&
     (dominio.search(".")!=-1) &&
     (dominio.indexOf(".") >=1)&&
     (dominio.lastIndexOf(".") < dominio.length - 1)) {
-document.getElementById("msgemail").innerHTML="E-mail válido";
+
+    document.getElementById("msgemail").innerHTML="E-mail válido";
+    document.getElementById("form").onsubmit = (e) => e
 }
 else{
-document.getElementById("msgemail").innerHTML="<font color='red'>Email inválido </font>";
-
+    document.getElementById("msgemail").innerHTML="<font color='red'>Email inválido </font>";
+    document.getElementById("form").onsubmit = (e) => {
+        e.preventDefault()
+    }
 }
 }
 </script>
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
 
 </head>
 <body>
@@ -52,7 +56,7 @@ document.getElementById("msgemail").innerHTML="<font color='red'>Email inválido
 <div>
     <h2>Login</h2>
 
-    <form method="post" action="loginPage.php" name="f1">
+    <form method="post" action="loginPage.php" name="f1" id="form">
         <input type="text" name="Nome" id="Nome" placeholder="Nome" required>
         <br>
         <input type="text" name="email" id="Email" onblur="validacaoEmail(f1.email)" placeholder="Email" required>
