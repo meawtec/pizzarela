@@ -12,6 +12,17 @@
     border-radius: 1pc;
 }li{
     padding-inline-start: 4px;
+
 }#cardpromo{
+    /*cor da fonte  */
     background-color: crimson;
+    border-radius: 1pc;
+    border-width: 20px;
+    border-color: rgb(0, 207, 138);
+    border-radius: 19px;/* ajeitar borda */
+
+}#retapromo{
+    display: inline-flex;
+    padding: 10px;
+   
 }

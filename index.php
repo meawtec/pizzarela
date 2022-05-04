@@ -45,16 +45,48 @@
 </div>
 <div id="divpromo">
       <div id="promocoes">
+      <div id="retapromo">
 
       <div class="card" style="width: 18rem;" id="cardpromo">
       <img src="..." class="card-img-top" alt="...">
       <div class="card-body">
       <p class="card-text">Aqui jas uma Pizza muito gostosa hmmmmmm.</p>
+      <button type="button" class="btn btn-success" href="/pags/carrinho.php">Ver</button>
+      </div>
+
+      
+
+
+      </div>
+      <div class="card" style="width: 18rem;" id="cardpromo">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+      <p class="card-text">Aqui jas uma Pizza muito gostosa hmmmmmm.</p>
+      <button type="button" class="btn btn-success" href="/pags/carrinho.php">Ver</button>
       </div>
       </div><br>
-      <p> fihwdo0ghoaçihat</p><br>
-      <p> fihwdo0ghoaçihat</p><br>
-      <p> fihwdo0ghoaçihat</p>
+
+      </div>
+
+      <div id="retapromo">
+
+      <div class="card" style="width: 18rem;" id="cardpromo">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+      <p class="card-text">Aqui jas uma Pizza muito gostosa hmmmmmm.</p>
+      <button type="button" class="btn btn-success" href="/pags/carrinho.php">Ver</button>
+      </div>
+      </div><div class="card" style="width: 18rem;" id="cardpromo">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+      <p class="card-text">Aqui jas uma Pizza muito gostosa hmmmmmm.</p>
+      <button type="button" class="btn btn-success" href="/pags/carrinho.php">Ver</button>
+      </div>
+      </div><br>
+
+      </div>
+
+      
     </div>
 </div>
 </body>
