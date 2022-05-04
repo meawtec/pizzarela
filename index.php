@@ -29,7 +29,7 @@
         </li>
         <a class="nav-link active" aria-current="page" href="pags/loginPage.php">Login Temporário</a>
         </li>
-        
+
         <form class="d-flex">
         <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
         <button class="btn btn-outline-success" type="submit">Pesquisar</button>
@@ -47,8 +47,14 @@
         <button type="button" > entrar</button>
 </a>
 <div>
-    
-
+</div>
+<div id="promocoes">
+  <label for="formGroupExampleInput" class="form-label">Example label</label>
+  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder">
+</div>
+<div class="mb-3">
+  <label for="formGroupExampleInput2" class="form-label">Another label</label>
+  <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input placeholder">
 </div>
 
 </body>
