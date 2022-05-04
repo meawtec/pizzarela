@@ -57,8 +57,11 @@
       </div>
       <div class="card" style="width: 18rem;" id="cardpromo">
       <img src="..." class="card-img-top" alt="...">
+
       <div class="card-body">
       <p class="card-text">Aqui ha uma Pizza muito gostosa hmmmmmm.</p>
+
+
       <button type="button" class="btn btn-success" href="/pags/carrinho.php">Ver</button>
       </div>
       </div><br>
