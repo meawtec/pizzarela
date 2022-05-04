@@ -17,11 +17,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Pesquisar</button>
-      </form>
-      <br>
+          
         <li class="nav-item">
 
 
@@ -34,6 +30,11 @@
         <a class="nav-link active" aria-current="page" href="pags/loginPage.php">Login Temporário</a>
         </li>
         
+        <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+      </form>
+      <br>
         
     </div>
   </div>
