@@ -30,8 +30,8 @@
         </li>
         <a class="nav-link active" aria-current="page" href="pags/loginPage.php">Login Temporário</a>
         </li>
-        
-        <form class="d-flex">
+
+        <form class="d-flex" id="pesquisa">
         <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
         <button class="btn btn-outline-success" type="submit">Pesquisar</button>
       </form>
@@ -42,9 +42,14 @@
 </nav>
       
 <div>
-    
-
 </div>
-
+<div id="divpromo">
+    <div id="promocoes">
+      <p> fihwdo0ghoaçihat</p><br>
+      <p> fihwdo0ghoaçihat</p><br>
+      <p> fihwdo0ghoaçihat</p><br>
+      <p> fihwdo0ghoaçihat</p>
+    </div>
+</div>
 </body>
 </html>
