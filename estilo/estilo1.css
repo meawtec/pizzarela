@@ -11,15 +11,14 @@
     padding: 1pc;
     border-radius: 1pc;
 }li{
-    padding-inline-start: 4px;
+    padding-inline-start: 20px;
 
 }#cardpromo{
     /*cor da fonte  */
-    background-color: crimson;
-    border-radius: 1pc;
-    border-width: 20px;
-    border-color: rgb(0, 207, 138);
-    border-radius: 19px;/* ajeitar borda */
+    background-color: rgb(255, 23, 62);
+    border-radius: 2pc;
+    padding-left: 20px;
+    
 
 }#retapromo{
     display: inline-flex;
