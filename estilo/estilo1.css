@@ -11,5 +11,7 @@
     padding: 1pc;
     border-radius: 1pc;
 }li{
-    padding-inline-start: 3px;
+    padding-inline-start: 4px;
+}#cardpromo{
+    background-color: crimson;
 }

@@ -44,8 +44,14 @@
 <div>
 </div>
 <div id="divpromo">
-    <div id="promocoes">
-      <p> fihwdo0ghoaçihat</p><br>
+      <div id="promocoes">
+
+      <div class="card" style="width: 18rem;" id="cardpromo">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+      <p class="card-text">Aqui jas uma Pizza muito gostosa hmmmmmm.</p>
+      </div>
+      </div><br>
       <p> fihwdo0ghoaçihat</p><br>
       <p> fihwdo0ghoaçihat</p><br>
       <p> fihwdo0ghoaçihat</p>
