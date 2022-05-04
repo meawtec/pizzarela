@@ -3,6 +3,7 @@
 <head>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
+<link href="estilo/estilo1.css" rel="stylesheet">
     <meta charset="UTF-8">
     <title>Pizzaria</title>
 
@@ -39,23 +40,16 @@
     </div>
   </div>
 </nav>
-        <button type="button"> peça online</button>
-    <button type="button"> Cardapio</button>
-    <button type="button"> Sobre nós</button>
-    <button type="button"> carrinho</button>
-    <a href="pags/loginPage.php">
-        <button type="button" > entrar</button>
-</a>
+      
 <div>
 </div>
-<div id="promocoes">
-  <label for="formGroupExampleInput" class="form-label">Example label</label>
-  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder">
+<div id="divpromo">
+    <div id="promocoes">
+      <p> fihwdo0ghoaçihat</p><br>
+      <p> fihwdo0ghoaçihat</p><br>
+      <p> fihwdo0ghoaçihat</p><br>
+      <p> fihwdo0ghoaçihat</p>
+    </div>
 </div>
-<div class="mb-3">
-  <label for="formGroupExampleInput2" class="form-label">Another label</label>
-  <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input placeholder">
-</div>
-
 </body>
 </html>
