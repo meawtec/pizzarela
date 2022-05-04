@@ -31,7 +31,7 @@
         <a class="nav-link active" aria-current="page" href="pags/loginPage.php">Login Temporário</a>
         </li>
 
-        <form class="d-flex">
+        <form class="d-flex" id="pesquisa">
         <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
         <button class="btn btn-outline-success" type="submit">Pesquisar</button>
       </form>
