@@ -53,8 +53,11 @@ else{
 <body>
 
 
+<div id="div2login">
 
 <div id="divlogin">
+
+    
     <h2>Login</h2>
 
     <form method="post" action="loginPage.php" name="f1" id="form">
@@ -64,11 +67,12 @@ else{
         <br>
         <input type="password" name="Senha" id="Senha" placeholder="Senha" required>
         <br>
-        <input type="submit" name="blogin" id="blogin" value="Entrar">
+        <input type="submit" name="blogin" id="blogin" class="btn btn-info" value="Entrar">
     </form>
-    
+
     <div id="msgemail"></div>
 
+</div>
 </div>
 
 </body>
