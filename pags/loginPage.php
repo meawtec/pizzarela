@@ -58,7 +58,7 @@ else{
 <div id="divlogin">
 
     
-    <h2>Login</h2>
+    <h2>Criar/Entrar</h2>
 
     <form method="post" action="loginPage.php" name="f1" id="form">
         <input type="text" name="Nome" id="Nome" placeholder="Nome" required>
