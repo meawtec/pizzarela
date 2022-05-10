@@ -50,10 +50,10 @@
 
       <div id="retapromo">
 
-      <div id="cardapio" class="d-block mb-3 navbar navbar-expand-lg  bg-success " >
+      <div id="cardapio" class=" mb-3 navbar navbar-expand-lg  bg-success " >
   <div class="row g-0">
     <div class="col-md-4">
-      <img src="/imagens/pizza.png" class="img-fluid rounded-start" alt="...">
+      <img src="../imagens/refrigerante.png" class="img-fluid rounded-start" alt="...">
     </div>
     <div class="col-md-8">
       <div class="card-body">
@@ -69,7 +69,7 @@
 <div id="cardapio" class="card d-block card mb-3  navbar navbar-expand-lg  bg-success" style=" ">
   <div class="row g-0">
     <div class="col-md-4">
-      <img src="..." class="img-fluid rounded-start" alt="...">
+      <img src="../imagens/pizza1.png" class="img-fluid rounded-start" alt="...">
     </div>
     <div class="col-md-8">
       <div class="card-body">
@@ -85,7 +85,7 @@
 <div id="cardapio" class="card mb-3  card mb-3 navbar navbar-expand-lg  bg-success" style="max-width: 1540px;">
   <div class="row g-0">
     <div class="col-md-4">
-      <img src="..." class="img-fluid rounded-start" alt="...">
+      <img src="../imagens/refrigerante.png" class="img-fluid rounded-start" alt="...">
     </div>
     <div class="col-md-8">
       <div class="card-body">
