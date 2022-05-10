@@ -8,9 +8,17 @@ $nome = $_POST['Nome'];
 $email = $_POST['Email'];
 $senha = $_POST['Senha'];
 
+/*terminar verificação*/
+$result = mysqli_query($conexao, "SELECT email FROM tbadmin email ='$email' ") ;
+/*terminar verificação*/
+
 $result = mysqli_query($conexao, "INSERT INTO tbadmin(nome,email,senha) VALUES ('$nome','$email','$senha')");
 header('Location:../index.php');
 }
+
+
+
+
 ?>
 
 <!DOCTYPE html>
@@ -63,7 +71,7 @@ else{
     <form method="post" action="loginPage.php" name="f1" id="form">
         <input type="text" name="Nome" id="Nome" placeholder="Nome" required>
         <br>
-        <input type="text" name="email" id="Email" onblur="validacaoEmail(f1.email)" placeholder="Email" required>
+        <input type="text" name="Email" id="Email" onblur="validacaoEmail(f1.email)" placeholder="Email" required>
         <br>
         <input type="password" name="Senha" id="Senha" placeholder="Senha" required>
         <br>
