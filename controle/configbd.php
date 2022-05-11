@@ -12,6 +12,6 @@ if($conexao->connect_errno){
 
 }
 else{
-    echo "deu certo";
+    echo "deu certo <br>";
 }
 ?>
