@@ -1,5 +1,4 @@
 <?php
-
 if (isset($_POST['blogin'])) {
 
     include_once('../controle/configbd.php');
@@ -7,38 +6,22 @@ if (isset($_POST['blogin'])) {
     $nome = $_POST['Nome'];
     $email = $_POST['Email'];
     $senha = $_POST['Senha'];
-
-
-
     
+    echo $email;
 
-    $sql = "SELECT email FROM tbadmin";
+    $sql = "SELECT * FROM tbadmin WHERE email = '$email'";
     $resulte = $conexao->query($sql);
 
         if ($resulte->num_rows > 0) {
-        
-            while ($row = $resulte->fetch_assoc()) {
-            echo "email: " . $row["email"] . "<br>";
+            echo "esse email ja existe <br>";
+            header('Location: loginPage.php');
+            return;
+        } else {
+            echo "de boa chefia <br>";
+            $result = mysqli_query($conexao, "INSERT INTO tbadmin(nome,email,senha) VALUES ('$nome','$email','$senha')");
+            header('Location: ../index.php');
+        }
 
-                if($email == $row["email"]) {
-                        echo "esse email ja existe <br>";
-                        header('Location: loginPage.php');
-                }
-                else{
-                    echo "de boa chefia <br>";
-                    $result = mysqli_query($conexao, "INSERT INTO tbadmin(nome,email,senha) VALUES ('$nome','$email','$senha')");
-                    header('Location: ../index.php');
-                }
-
-
-         }
-
-
-         } else {
-         echo "0 results";
-         $result = mysqli_query($conexao, "INSERT INTO tbadmin(nome,email,senha) VALUES ('$nome','$email','$senha')");
-         header('Location: ../index.php');
-         }
 
     $conexao->close();
 
