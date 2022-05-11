@@ -52,15 +52,15 @@
      
 
 
-<div id="cardapio" class="card d-block card mb-3  navbar navbar-expand-lg  bg-success" style=" ">
+<div id="cardapio" class="card d-block card mb-3  navbar navbar-expand-lg  bg-success">
   <div class="row g-0">
     <div class="col-md-4">
       <img src="../imagens/pizza1.png" class="img-fluid rounded-start" alt="...">
     </div>
     <div class="col-md-8">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 class="card-title">Pizzas</h5>
+        <p class="card-text">Pizzas gostosas, boas demais da conta.</p>
         
       </div>
     </div>
@@ -75,8 +75,8 @@
     </div>
     <div class="col-md-8">
       <div class="card-body">
-        <h5 class="card-title">PA RAPARAPARAYdao</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 class="card-title">Bebidas</h5>
+        <p class="card-text">Bebidas gostosas, muito mas muito gostosas.</p>
         
       </div>
     </div>
