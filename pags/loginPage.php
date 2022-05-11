@@ -87,7 +87,7 @@ if (isset($_POST['blogin'])) {
 
 </head>
 
-<body>
+<body style="backgraound-image: linear-grandient(45deg, blue, green );">
 
 
     <div id="div2login">
@@ -95,16 +95,16 @@ if (isset($_POST['blogin'])) {
         <div id="divlogin">
 
 
-            <h2>Criar/Entrar</h2>
+            <h2 >Criar/Entrar</h2>
 
             <form method="post" action="loginPage.php" name="f1" id="form">
                 <input type="text" name="Nome" id="Nome" placeholder="Nome" required>
-                <br>
+                <br><br>
                 <input type="text" name="Email" id="Email" onblur="validacaoEmail(f1.email)" placeholder="Email" required>
-                <br>
+                <br><br>
                 <input type="password" name="Senha" id="Senha" placeholder="Senha" required>
-                <br>
-                <input type="submit" name="blogin" id="blogin" class="btn btn-info" value="Entrar">
+                <br><br>
+                <input type="submit" name="blogin" id="blogin" class="btn " value="Entrar">
             </form>
 
             <div id="msgemail"></div>
