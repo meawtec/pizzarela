@@ -22,13 +22,14 @@ if (isset($_POST['blogin'])) {
 
                 if($email == $row["email"]) {
                         echo "esse email ja existe <br>";
-                        header ('../index.php');
+                        header('Location: loginPage.php');
                 }
                 else{
                     echo "de boa chefia <br>";
                     $result = mysqli_query($conexao, "INSERT INTO tbadmin(nome,email,senha) VALUES ('$nome','$email','$senha')");
-                    header ('../index.php');
+                    header('Location: ../index.php');
                 }
+
 
          }
 
@@ -36,7 +37,7 @@ if (isset($_POST['blogin'])) {
          } else {
          echo "0 results";
          $result = mysqli_query($conexao, "INSERT INTO tbadmin(nome,email,senha) VALUES ('$nome','$email','$senha')");
-
+         header('Location: ../index.php');
          }
 
     $conexao->close();
