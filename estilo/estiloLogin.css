@@ -1,5 +1,5 @@
 #div2login{
-    
+    text
     padding: 50px;
 }
 
@@ -16,4 +16,23 @@
 #form{
     padding: 10px;
     
+}#Nome{
+    border-radius: 10px;
+    border: none;
+}#Email{
+    border-radius: 10px;
+    border: none;
+}
+#Senha{
+    border-radius: 10px;
+    border: none;
+}#blogin{
+    background-color: rgb(198, 62, 62);
+    
+}p{
+    color: aliceblue;
+}h2{
+    color: aliceblue;
+}body{
+    background-image: linear-gradient(45deg, rgb(48, 165, 112), rgb(165, 46, 46) );
 }
