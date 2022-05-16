@@ -87,7 +87,10 @@ if (isset($_POST['blogin'])) {
                 <br><br>
                 <input type="password" name="Senha" id="Senha" placeholder="Senha" required>
                 <br><br>
-                <input style=" color: white;" type="submit" name="blogin" id="blogin" class="btn " value="Entrar">
+                <div id="afk">
+                <input type="submit" name="blogin" id="blogin" class="btn " value="Entrar">
+                <a type="button" id="blogin" class="btn "  href="../index.php">Cancelar</a>
+                </div>
             </form>
 
             <div id="msgemail"></div>

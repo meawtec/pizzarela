@@ -18,12 +18,13 @@
     border: none;
 }#blogin{
     background-color: rgb(198, 62, 62);
+    color: white;
     
 }p{
     color: aliceblue;
 }h2{
     color: aliceblue;
 }body{
-    background-image: linear-gradient(45deg, rgb(195, 28, 28),rgb(228, 154, 154),rgb(147, 230, 158) , rgb(59, 246, 84) );
+    background-image: linear-gradient(45deg, rgb(148, 22, 22),rgb(227, 146, 146),rgb(112, 209, 125) , rgb(4, 146, 23) );
     
-}
+}#afk{}
