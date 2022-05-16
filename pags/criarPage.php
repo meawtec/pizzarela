@@ -80,7 +80,7 @@ if (isset($_POST['blogin'])) {
 
             <h2 >Criar/Entrar</h2>
 
-            <form method="post" action="loginPage.php" name="f1" id="form">
+            <form method="post" action="criarPage.php" name="f1" id="form">
                 <input type="text" name="Nome" id="Nome" placeholder="Nome" required>
                 <br><br>
                 <input type="text" name="Email" id="Email" onblur="validacaoEmail(f1.email)" placeholder="Email" required>
