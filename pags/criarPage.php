@@ -70,7 +70,7 @@ if (isset($_POST['blogin'])) {
 
 </head>
 
-<body style="backgraound-image: linear-grandient(45deg, blue, green );">
+<body >
 
 
     <div id="div2login">
@@ -87,7 +87,7 @@ if (isset($_POST['blogin'])) {
                 <br><br>
                 <input type="password" name="Senha" id="Senha" placeholder="Senha" required>
                 <br><br>
-                <input type="submit" name="blogin" id="blogin" class="btn " value="Entrar">
+                <input style=" color: white;" type="submit" name="blogin" id="blogin" class="btn " value="Entrar">
             </form>
 
             <div id="msgemail"></div>
