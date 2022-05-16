@@ -28,7 +28,7 @@
         </li>
         <a class="nav-link active" aria-current="page" href="pags/sobrenos.php">Sobre nos</a>
         </li>
-        <a class="nav-link active" aria-current="page" href="pags/loginPage.php">Entrar/criar</a>
+        <a class="nav-link active" aria-current="page" href="pags/criarPage.php">Entrar/criar</a>
         </li>
 
         <form class="d-flex" id="pesquisa">
