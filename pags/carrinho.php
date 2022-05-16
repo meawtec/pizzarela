@@ -48,11 +48,7 @@
         
 
       
-
-     
-
-
-<div id="cardapio" class="card d-block card mb-3  navbar navbar-expand-lg  bg-success">
+      <div id="cardapio" class=" mb-3 navbar navbar-expand-lg  bg-success " >
   <div class="row g-0">
     <div class="col-md-4">
       <img src="../imagens/pizza1.png" class="img-fluid rounded-start" alt="...">
@@ -60,14 +56,13 @@
     <div class="col-md-8">
       <div class="card-body">
         <h5 class="card-title">Pizzas</h5>
-        <p class="card-text">Pizzas gostosas, boas demais da conta.</p>
+        <p class="card-text">Pizzas gostosas, muito mais muito gostosas.</p>
         
       </div>
     </div>
   </div>
 </div>
-
-
+    
 <div id="cardapio" class=" mb-3 navbar navbar-expand-lg  bg-success " >
   <div class="row g-0">
     <div class="col-md-4">
@@ -76,12 +71,58 @@
     <div class="col-md-8">
       <div class="card-body">
         <h5 class="card-title">Bebidas</h5>
-        <p class="card-text">Bebidas gostosas, muito mas muito gostosas.</p>
+        <p class="card-text">Bebidas gostosas, muito mais muito gostosas.</p>
         
       </div>
     </div>
   </div>
 </div>
+
+<div id="cardapio" class=" mb-3 navbar navbar-expand-lg  bg-success " >
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="../imagens/ham1.png" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Hamburguers</h5>
+        <p class="card-text">Hamburguers gostosas, muito mais muito gostosas.</p>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="cardapio" class=" mb-3 navbar navbar-expand-lg  bg-success " >
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="../imagens/Refri.png" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Acompanhamentos</h5>
+        <p class="card-text">batata frita deliciosa entre outros acompanhamentos.</p>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="cardapio" class=" mb-3 navbar navbar-expand-lg  bg-success " >
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="../imagens/Refri.png" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Acompanhamentos</h5>
+        <p class="card-text">batata frita deliciosa entre outros acompanhamentos.</p>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
 
 </div>
 
