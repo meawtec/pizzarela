@@ -14,7 +14,7 @@ if (isset($_POST['blogin'])) {
 
         if ($resulte->num_rows > 0) {
             echo "esse email ja existe <br>";
-            header('Location: loginPage.php');
+            header('Location: criarPage.php');
             return;
         } else {
             echo "de boa chefia <br>";
