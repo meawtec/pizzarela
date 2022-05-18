@@ -4,11 +4,11 @@ include_once '../controle/configbd.php';
 
 
     
-  if (isset($_POST['entrar'])) {
+  if (isset($_POST['entrarL'])) {
 
-    $emailL = $_POST['email'];
-    $entrar = $_POST['entrar'];
-    $senha = md5($_POST['senha']);
+    $emailL = $_POST['emailL'];
+    $entrar = $_POST['entrarL'];
+    $senha = ($_POST['senha']);
     $db = mysqli_select_db($conexao, 'meaw');
 
     $verifica = mysqli_query($conexao, "SELECT * FROM tbadmin WHERE email = '$emailL' AND senha = '$senha'") or die("erro ao selecionar");
@@ -34,7 +34,7 @@ include_once '../controle/configbd.php';
 <form method="POST" action="loginPage.php">
 <label>email:</label><input type="text" name="emailL" id="emailL"><br>
 <label>Senha:</label><input type="password" name="senha" id="senha"><br>
-<input type="submit" value="entrar" id="entrar" name="entrar"><br>
+<input type="submit" value="entrar" id="entrarL" name="entrarL"><br>
 <a href="criarPage.php">Cadastre-se</a>
 </form>
 </body>
