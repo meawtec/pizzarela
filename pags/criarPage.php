@@ -71,7 +71,10 @@ if (isset($_POST['blogin'])) {
 </head>
 
 <body >
-
+    <button id="volt">
+        <a id="voltar" href="../index.php">Voltar</a>
+    </button>
+    
 
     <div id="div2login">
 
@@ -89,7 +92,7 @@ if (isset($_POST['blogin'])) {
                 <br><br>
                 <div id="afk">
                 <input type="submit" name="blogin" id="blogin" class="btn " value="Entrar">
-                <a type="button" id="blogin" class="btn "  href="../index.php">Cancelar</a>
+
                 </div>
             </form>
 
