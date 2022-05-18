@@ -24,7 +24,7 @@
 </div>
 
 
-<div id="cardapio" class="card d-block card mb-3  navbar navbar-expand-lg  bg-success" style=" ">
+<div id="cardapio" class="card d-block card mb-3  navbar navbar-expand-lg  bg-success" >
   <div class="row g-0">
     <div class="col-md-4">
       <img src="../imagens/pizza1.png" class="img-fluid rounded-start" alt="...">
