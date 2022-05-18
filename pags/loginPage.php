@@ -16,7 +16,7 @@
         .href='loginPage.php';</script>";
         die();
       }else{
-        setcookie("email",$emailL);
+        setcookie("email",$emailL,time() + (86400 * 30), "/");
         header("Location:../index.php");
       }
   }
