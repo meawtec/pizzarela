@@ -48,83 +48,99 @@
             
 
           
+        <a href="../index.php" id="averde">
+           <div id="cardapio" class=" mb-3 navbar navbar-expand-lg  bg-success " >
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="../imagens/pizza1.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Pizzas</h5>
+                  <p class="card-text">Pizzas gostosas, muito mais muito gostosas.</p>
+                  
+                  
+                </div>
+              </div> 
+            </div>
+          </div>
+        </a>
+ 
+ 
+        <a href="../index.php" id="averde">
           <div id="cardapio" class=" mb-3 navbar navbar-expand-lg  bg-success " >
-      <div class="row g-0">
-        <div class="col-md-4">
-          <img src="../imagens/pizza1.png" class="img-fluid rounded-start" alt="...">
-        </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title">Pizzas</h5>
-            <p class="card-text">Pizzas gostosas, muito mais muito gostosas.</p>
-            
-            <button type="button" class="btn btn-success" href="...">Ver</button>
-          </div>
-        </div>
-      </div>
-    </div>
-        
-    <div id="cardapio" class=" mb-3 navbar navbar-expand-lg  bg-success " >
-      <div class="row g-0">
-        <div class="col-md-4">
-          <img src="../imagens/Refri.png" class="img-fluid rounded-start" alt="...">
-        </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title">Bebidas</h5>
-            <p class="card-text">Bebidas gostosas, muito mais muito gostosas.</p>
-            
-            <button id="olhar" type="button" class="btn btn-outline-light">Ver</button>
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="../imagens/Refri.png" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Bebidas</h5>
+                    <p class="card-text">Bebidas gostosas, muito mais muito gostosas.</p>
+                    
+                    
 
-          </div>
-        </div>
-      </div>
-    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
 
-    <div id="cardapio" class=" mb-3 navbar navbar-expand-lg  bg-success " >
-      <div class="row g-0">
-        <div class="col-md-4">
-          <img src="../imagens/ham1.png" class="img-fluid rounded-start" alt="...">
-        </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title">Hamburguers</h5>
-            <p class="card-text">Hamburguers gostosas, muito mais muito gostosas.</p>
-            
-          </div>
-        </div>
-      </div>
-    </div>
+          <a href="../index.php" id="averde">
+            <div id="cardapio" class=" mb-3 navbar navbar-expand-lg  bg-success " >
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="../imagens/ham1.png" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Hamburguers</h5>
+                    <p class="card-text">Hamburguers gostosas, muito mais muito gostosas.</p>
+                    
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
 
-    <div id="cardapio" class=" mb-3 navbar navbar-expand-lg  bg-success " >
-      <div class="row g-0">
-        <div class="col-md-4">
-          <img src="../imagens/Refri.png" class="img-fluid rounded-start" alt="...">
-        </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title">Acompanhamentos</h5>
-            <p class="card-text">batata frita deliciosa entre outros acompanhamentos.</p>
-            
-          </div>
-        </div>
-      </div>
-    </div>
+          <a href="../index.php" id="averde">
+            <div id="cardapio" class=" mb-3 navbar navbar-expand-lg  bg-success " >
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="../imagens/Refri.png" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Acompanhamentos</h5>
+                    <p class="card-text">batata frita deliciosa entre outros acompanhamentos.</p>
+                    
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
 
-    <div id="cardapio" class=" mb-3 navbar navbar-expand-lg  bg-success " >
-      <div class="row g-0">
-        <div class="col-md-4">
-          <img src="../imagens/Refri.png" class="img-fluid rounded-start" alt="...">
-        </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title">Acompanhamentos</h5>
-            <p class="card-text">batata frita deliciosa entre outros acompanhamentos.</p>
+
+          <a href="../index.php" id="averde">
+            <div id="cardapio" class=" mb-3 navbar navbar-expand-lg  bg-success " >
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="../imagens/Refri.png" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Acompanhamentos</h5>
+                    <p class="card-text">batata frita deliciosa entre outros acompanhamentos.</p>
+                    
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            </a>
             
-          </div>
-        </div>
-      </div>
-    </div>
   </div>
 </div>
 
