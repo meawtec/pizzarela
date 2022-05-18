@@ -26,14 +26,15 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link rel="stylesheet" href="../estilo/estiloLogin.css">
 <title> Login de Usuário </title>
 </head>
 <body>
-<form method="POST" action="loginPage.php">
+<form id="form" method="POST" action="loginPage.php">
 <label>email:</label><input type="text" name="emailL" id="emailL"><br>
 <label>Senha:</label><input type="password" name="senha" id="senha"><br>
 <input type="submit" value="entrar" id="entrarL" name="entrarL"><br>
-<a href="criarPage.php">Cadastre-se</a>
+<a href="criarPage.php" >Cadastre-se</a>
 </form>
 </body>
 </html>
