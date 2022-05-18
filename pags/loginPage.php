@@ -1,10 +1,8 @@
 <?php
 
-include_once '../controle/configbd.php';
-
-
-    
   if (isset($_POST['entrarL'])) {
+
+    include_once '../controle/configbd.php';
 
     $emailL = $_POST['emailL'];
     $entrar = $_POST['entrarL'];
