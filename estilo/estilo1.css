@@ -43,9 +43,7 @@
 #cardapio{
     border-radius: 2pc;
 }#olhar{
-    width: 50%;
-}#averde{
-    color: black;
-    text-decoration: none;
+    align-items: flex-start;
+}#gmail{
+    color: white;
 }
-
