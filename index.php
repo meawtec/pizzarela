@@ -7,8 +7,10 @@
     <meta charset="UTF-8">
     <title>Pizzaria</title>
 
+
 </head>
 <body>
+
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
 
@@ -33,9 +35,6 @@
         <a class="nav-link active" aria-current="page" href="pags/loginPage.php">Entrar</a>
         </li>
 
-        <form class="d-flex" id="pesquisa">
-        <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Pesquisar</button>
 
       </form>
 <h6 id="gmail">  

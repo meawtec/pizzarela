@@ -3,7 +3,7 @@
 <head>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-<link href="estilo/estilo1.css" rel="stylesheet">
+<link href="../estilo/estilo2.css" rel="stylesheet">
 
     <meta charset="UTF-8">
     <title>Pizzaria</title>
@@ -33,14 +33,18 @@
         </li>
         
         <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+        <input class="form-control me-2" type="search" placeholder="Peça online" aria-label="Search">
         <button class="btn btn-outline-success" type="submit">Pesquisar</button>
       </form>
       <br>
-        
-    </div>
-  </div>
 </nav>
+  
+<div id="divpeca">
+  <div id="pnn">
+    
+  </div>
+</div>
+
 
 
 
