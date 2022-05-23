@@ -1,3 +1,16 @@
+<?php 
+include_once 'controle/configbd.php';
+
+
+
+$email = $_COOKIE['email'];
+$verifica = mysqli_query($conexao, "SELECT * FROM tbadmin WHERE email = '$email'") or die("erro ao selecionar");
+if(mysqli_num_rows($verifica)>0){
+  $user = mysqli_fetch_assoc($verifica);
+}
+
+
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -31,9 +44,15 @@
         <a class="nav-link active" aria-current="page" href="pags/criarPage.php">Criar</a>
         </li>
         <a class="nav-link active" aria-current="page" href="pags/loginPage.php">Entrar</a>
+        <?php
+        if(($user['adm'] == true)):
+        ?>
         </li>
       <a nome = "alterar" id= "alterar" class="nav-link active" aria-current="page" href="pags/alterar.php">Alterar</a>
         </li>
+        <?php 
+        endif
+        ?>
 
         <form class="d-flex" id="pesquisa">
         <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
