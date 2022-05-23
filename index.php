@@ -32,6 +32,8 @@
         </li>
         <a class="nav-link active" aria-current="page" href="pags/loginPage.php">Entrar</a>
         </li>
+      <a nome = "alterar" id= "alterar" class="nav-link active" aria-current="page" href="pags/alterar.php">Alterar</a>
+        </li>
 
         <form class="d-flex" id="pesquisa">
         <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
@@ -40,9 +42,13 @@
       </form>
 <h6 id="gmail">  
 <?php 
+
 if(isset($_COOKIE['email'])){
 echo $_COOKIE['email'];
 }
+
+
+
 ?>
 </h6>
 

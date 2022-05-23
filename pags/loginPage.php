@@ -11,9 +11,18 @@
 
     $verifica = mysqli_query($conexao, "SELECT * FROM tbadmin WHERE email = '$emailL' AND senha = '$senha'") or die("erro ao selecionar");
       if (mysqli_num_rows($verifica)<=0){
-        echo"<script language='javascript' type='text/javascript'>
-        alert('Login e/ou senha incorretos');window.location
-        .href='loginPage.php';</script>";
+        
+
+          $verifica2 = mysqli_query($conexao, "SELECT * FROM tbusuario WHERE email = '$emailL' AND senha = '$senha'") or die("erro ao selecionar");
+          if (mysqli_num_rows($verifica2)<=0){
+            echo"<script language='javascript' type='text/javascript'>
+            alert('Login e/ou senha incorretos');window.location
+            .href='loginPage.php';</script>";
+           }
+          else{
+            setcookie("email",$emailL,time() + (86400 * 30), "/");
+            header("Location:../index.php");
+          }
         die();
       }else{
         setcookie("email",$emailL,time() + (86400 * 30), "/");
