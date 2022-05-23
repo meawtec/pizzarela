@@ -22,15 +22,16 @@
 
     padding-left: 20px;
     border-radius: 30px;
-    
+
     border-color:rgb(0, 207, 138) ;
     border-radius: 1pc;
     padding: 5px;
-    
 
 }#retapromo{
     display: inline-block;
     padding-left: 10px;
+    text-decoration: none;
+
 }
 
 #cardpromo{
@@ -46,4 +47,5 @@
     align-items: flex-start;
 }#gmail{
     color: white;
+    
 }

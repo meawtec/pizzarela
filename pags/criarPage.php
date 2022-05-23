@@ -71,7 +71,7 @@ if (isset($_POST['blogin'])) {
 </head>
 
 <body >
-    <button id="volt">
+    <button id="volt2">
         <a id="voltar" href="../index.php">Voltar</a>
     </button>
     
