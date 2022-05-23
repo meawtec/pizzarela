@@ -30,11 +30,23 @@
 <title> Login de Usuário </title>
 </head>
 <body>
-<form id="form" method="POST" action="loginPage.php">
-<label>email:</label><input type="text" name="emailL" id="emailL"><br>
-<label>Senha:</label><input type="password" name="senha" id="senha"><br>
-<input type="submit" value="entrar" id="entrarL" name="entrarL"><br>
-<a href="criarPage.php" >Cadastre-se</a>
+<button id="volt">
+        <a id="voltar" href="../index.php">Voltar</a>
+</button>
+
+<div id="div2login">
+
+  <div id="divlogin">
+    <h1 >Cadastrar</h1>
+
+    <form id="form" method="POST" action="loginPage.php"><br>
+      <label></label><input type="text" name="emailL" id="emailL"><br><br>
+      <label></label><input type="password" name="senha" id="senha"><br><br>
+      <input type="submit" value="entrar" id="entrarL" name="entrarL"><br><br>
+      <a  id="entrarL" href="criarPage.php" >Cadastre-se</a>
+  </div>
+</div>  
+
 </form>
 </body>
 </html>
