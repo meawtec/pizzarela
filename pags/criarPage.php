@@ -18,7 +18,7 @@ if (isset($_POST['blogin'])) {
             return;
         } else {
             echo "de boa chefia <br>";
-            $result = mysqli_query($conexao, "INSERT INTO tbadmin(nome,email,senha) VALUES ('$nome','$email','$senha')");
+            $result = mysqli_query($conexao, "INSERT INTO tbusuario(nome,email,senha) VALUES ('$nome','$email','$senha')");
             header('Location: ../index.php');
         }
 
