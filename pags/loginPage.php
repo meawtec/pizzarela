@@ -39,12 +39,17 @@
     <h1 >Cadastrar</h1>
 
     <form id="form" method="POST" action="loginPage.php"><br>
-      <label></label><input type="text" placeholder="Email" name="emailL" id="emailL"><br><br>
-      <label></label><input type="password" placeholder="Senha" name="senha" id="senha"><br><br>
-      <input type="submit" value="entrar" id="entrarL" name="entrarL"><br><br>
+      <label></label><input type="text" placeholder="Email" name="emailL" id="emailL"><br>
+      <br>
+      <label></label><input type="password" placeholder="Senha" name="senha" id="senha"><br>
+      <br>
+      <input type="submit" value="entrar" id="entrarL" name="entrarL"><br>
+      <br>
       <a  id="entrarL" href="criarPage.php" >Cadastre-se</a>
   </div>
 </div>  
+
+
 
 </form>
 </body>

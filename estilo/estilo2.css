@@ -4,7 +4,7 @@ body{
    
 
 }#divpeca{
-    background-image: linear-gradient(45deg, rgb(165, 255, 226),rgb(65, 48, 60),rgb(39, 49, 59), rgb(79, 79, 56) );
+    background-image: linear-gradient(45deg, rgb(165, 255, 226),rgb(255, 0, 179) );
     width: 100%;
     align-items: center;
     padding: 7px;
