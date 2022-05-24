@@ -49,4 +49,8 @@
 }#gmail{
     color: white;
     align-items: flex-end;
+}#averde{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
 }
