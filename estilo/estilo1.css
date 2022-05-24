@@ -51,6 +51,8 @@ body{
 }#gmail{
     color: white;
     align-items: flex-end;
+    padding: 10px;
+    
 }#averde{
     text-decoration: none;
     color: black;

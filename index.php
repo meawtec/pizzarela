@@ -52,6 +52,7 @@ if(mysqli_num_rows($verifica)>0){
         </li>
       <a nome = "alterar" id= "alterar" class="nav-link active" aria-current="page" href="pags/alterar.php">Alterar</a>
         </li>
+        
         <?php 
         endif
         ?>
