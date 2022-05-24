@@ -1,12 +1,16 @@
 <?php 
 include_once 'controle/configbd.php';
-
+$ademiro = false;
 
 if(isset($_COOKIE['email'])){
 $email = $_COOKIE['email'];
 $verifica = mysqli_query($conexao, "SELECT * FROM tbadmin WHERE email = '$email'") or die("erro ao selecionar");
 if(mysqli_num_rows($verifica)>0){
   $user = mysqli_fetch_assoc($verifica);
+  if(($user['adm'] == true)){
+    $ademiro = true;
+  }
+  
 }
 }
 
@@ -46,10 +50,10 @@ if(mysqli_num_rows($verifica)>0){
         <a class="nav-link active" aria-current="page" href="pags/criarPage.php">Criar</a>
         </li>
         <a class="nav-link active" aria-current="page" href="pags/loginPage.php">Entrar</a>
-        <?php
-        if(($user['adm'] == true)):
-        ?>
         </li>
+        <?php
+        if($ademiro):
+        ?>
       <a nome = "alterar" id= "alterar" class="nav-link active" aria-current="page" href="pags/alterar.php">Alterar</a>
         </li>
         

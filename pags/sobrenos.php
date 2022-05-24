@@ -35,6 +35,17 @@
         <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
         <button class="btn btn-outline-success" type="submit">Pesquisar</button>
       </form>
+      <h6 id="gmail">  
+<?php 
+
+if(isset($_COOKIE['email'])){
+echo $_COOKIE['email'];
+}
+
+
+
+?>
+</h6>
       <br>
         
     </div>
