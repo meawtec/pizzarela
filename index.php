@@ -2,13 +2,13 @@
 include_once 'controle/configbd.php';
 
 
-
+if(isset($_COOKIE['email'])){
 $email = $_COOKIE['email'];
 $verifica = mysqli_query($conexao, "SELECT * FROM tbadmin WHERE email = '$email'") or die("erro ao selecionar");
 if(mysqli_num_rows($verifica)>0){
   $user = mysqli_fetch_assoc($verifica);
 }
-
+}
 
 ?>
 <!DOCTYPE html>
