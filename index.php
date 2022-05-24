@@ -20,8 +20,10 @@ if(mysqli_num_rows($verifica)>0){
     <meta charset="UTF-8">
     <title>Pizzaria</title>
 
+
 </head>
 <body>
+
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
 
@@ -54,9 +56,6 @@ if(mysqli_num_rows($verifica)>0){
         endif
         ?>
 
-        <form class="d-flex" id="pesquisa">
-        <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Pesquisar</button>
 
       </form>
 <h6 id="gmail">  
