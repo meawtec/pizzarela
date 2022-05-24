@@ -1,3 +1,5 @@
 echo"<script language='javascript' type='text/javascript'>
         alert('Login e/ou senha incorretos');window.location
         .href='loginPage.php';</script>";
+
+        NA NOITE MAIS CLARA NO DIA MAIS ESCURO COMEREI O CU DE QUEM LER
