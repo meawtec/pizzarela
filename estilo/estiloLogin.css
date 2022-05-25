@@ -58,6 +58,7 @@
     text-decoration: none ;
     border-radius: 10px;
     padding: 10px;
+    cursor: pointer;
 }p{
     color: aliceblue;
 }h2{
@@ -70,7 +71,7 @@
     height: 20%;
     display: block;
     font-family: Arial, Helvetica, sans-serif;
-    font: ;
+    
     
 }#voltar{
     text-decoration: none;
@@ -102,4 +103,12 @@
 }#olho{
     display: flex;
 
+}#cadiado{
+    width: 45px;
+    height: 45px;
+   color: rgb(255, 255, 255);
+   cursor: pointer;
+}#cadas{
+    text-decoration: none;
+    color: aliceblue;
 }
