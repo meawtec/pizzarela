@@ -1,32 +1,23 @@
 <?php
-if (isset($_POST['blogin'])) {
+if (!empty($_GET['id'])) {
 
     include_once('../controle/configbd.php');
 
-    $nome = $_POST['Nome'];
-    $email = $_POST['Email'];
-    $senha = $_POST['Senha'];
+    $id = $_GET['id'];
     
-    echo $email;
-
-    $sql = "SELECT * FROM tbadmin WHERE email = '$email'";
-    $resulte = $conexao->query($sql);
-
-        if ($resulte->num_rows > 0) {
-            echo"<script language='javascript' type='text/javascript'>
-            alert('Este email já esta em uso.');window.location
-            .href='criarPage.php';</script>";
+    $sqlSeleect = "SELECT * FROM tbadmin WHERE id = '$id'";
+    $sql = mysqli_query($conexao, $sqlSeleect);
     
-           // header('Location: criarPage.php');
-            return;
-        } else {
-            echo "de boa chefia <br>";
-            $result = mysqli_query($conexao, "INSERT INTO tbadmin(nome,email,senha) VALUES ('$nome','$email','$senha')");
-            header('Location: ../index.php');
-        }
+    $user = mysqli_fetch_assoc($sql);
 
+    if($_SERVER['REQUEST_METHOD'] == "POST") {
+        $nome = $_POST['Nome'];
+        $email = $_POST['Email'];
+        $senha = $_POST['Senha'];
+        $admin = $_POST['Admin'];
 
-    $conexao->close();
+        $sqlUpdate = "UPDATE FROM tbadmin SET nome = '$nome', email = '$email', senha = '$senha', adm = '$admin' ";
+    }
 
 }
 
@@ -86,12 +77,15 @@ if (isset($_POST['blogin'])) {
 
             <h2 >Criar/Entrar</h2>
 
-            <form method="post" action="criarPage.php" name="f1" id="form">
-                <input type="text" name="Nome" id="Nome" placeholder="Nome" required>
+            <form method="post" action="edit.php?id=<?php echo $id?>" name="f1" id="form">
+                <input type="text" name="Nome" id="Nome" placeholder="Nome" value="<?php echo $user['nome'] ?>" required>
                 <br><br>
-                <input type="text" name="Email" id="Email" onblur="validacaoEmail(f1.email)" placeholder="Email" required>
+                <input type="text" name="Email" id="Email" onblur="validacaoEmail(f1.email)" value="<?php echo $user['email'] ?>" placeholder="Email" required>
                 <br><br>
-                <input type="password" name="Senha" id="Senha" placeholder="Senha" required>
+                <input type="password" name="Senha" id="Senha" placeholder="Senha" value="<?php echo $user['senha'] ?>" required>
+                <br><br>
+                <label for="Admin">Admin:</label>
+                <input type="checkbox" name="Admin" id="Admin" <?php echo $user['adm'] == 1 ? 'checked' : 'unchecked'; ?>>
                 <br><br>
                 <div id="afk">
                 <input type="submit" name="blogin" id="blogin" class="btn " value="Entrar">

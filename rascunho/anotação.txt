@@ -3,3 +3,16 @@ echo"<script language='javascript' type='text/javascript'>
         .href='loginPage.php';</script>";
 
         NA NOITE MAIS CLARA NO DIA MAIS ESCURO COMEREI O CU DE QUEM LER
+
+        <form method="post" action="criarPage.php" name="f1" id="form">
+                <input type="text" name="Nome" id="Nome" placeholder="Nome" required>
+                <br><br>
+                <input type="text" name="Email" id="Email" onblur="validacaoEmail(f1.email)" placeholder="Email" required>
+                <br><br>
+                <input type="password" name="Senha" id="Senha" placeholder="Senha" required>
+                <br><br>
+                <div id="afk">
+                <input type="submit" name="blogin" id="blogin" class="btn " value="Entrar">
+
+                </div>
+            </form>
