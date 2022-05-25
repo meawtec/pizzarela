@@ -5,7 +5,7 @@ $select = "SELECT * FROM tbadmin ORDER BY id DESC";
 
 $Sresult = $conexao->query($select);
 
-print_r($Sresult)
+//print_r($Sresult)
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -16,18 +16,7 @@ print_r($Sresult)
     <title>Document</title>
 </head>
 <body>
-<form method="post" action="criarPage.php" name="f1" id="form">
-                <input type="text" name="Nome" id="Nome" placeholder="Nome" required>
-                <br><br>
-                <input type="text" name="Email" id="Email" onblur="validacaoEmail(f1.email)" placeholder="Email" required>
-                <br><br>
-                <input type="password" name="Senha" id="Senha" placeholder="Senha" required>
-                <br><br>
-                <div id="afk">
-                <input type="submit" name="blogin" id="blogin" class="btn " value="Entrar">
 
-                </div>
-            </form>
             <div>
                 <table class="table">
     <thead>

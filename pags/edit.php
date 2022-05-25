@@ -14,9 +14,12 @@ if (!empty($_GET['id'])) {
         $nome = $_POST['Nome'];
         $email = $_POST['Email'];
         $senha = $_POST['Senha'];
-        $admin = $_POST['Admin'];
+        $admin = $_POST['Admin'] ?? 0;
 
-        $sqlUpdate = "UPDATE FROM tbadmin SET nome = '$nome', email = '$email', senha = '$senha', adm = '$admin' ";
+        $sqlUpdate = "UPDATE tbadmin SET nome = '$nome', email = '$email', senha = '$senha', adm = '$admin' WHERE id = '$id' ";
+        $sql = mysqli_query($conexao, $sqlUpdate);
+
+        header('Location: ../index.php');
     }
 
 }
@@ -85,7 +88,7 @@ if (!empty($_GET['id'])) {
                 <input type="password" name="Senha" id="Senha" placeholder="Senha" value="<?php echo $user['senha'] ?>" required>
                 <br><br>
                 <label for="Admin">Admin:</label>
-                <input type="checkbox" name="Admin" id="Admin" <?php echo $user['adm'] == 1 ? 'checked' : 'unchecked'; ?>>
+                <input type="checkbox" name="Admin" id="Admin" value="1" <?php echo $user['adm'] == 1 ? 'checked' : 'unchecked'; ?>>
                 <br><br>
                 <div id="afk">
                 <input type="submit" name="blogin" id="blogin" class="btn " value="Entrar">
