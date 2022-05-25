@@ -74,35 +74,37 @@ if (isset($_POST['blogin'])) {
 </head>
 
 <body >
-    <button id="volt2">
-        <a id="voltar" href="../index.php">Voltar</a>
-    </button>
+<a id="voltar" href="../index.php">
+  <button id="volt">
+          <h6>Voltar</h6> 
+  </button>
+</a>
     
 
-    <div id="div2login">
+<div id="div2login">
 
-        <div id="divlogin">
+    <div id="divlogin">
 
 
-            <h2 >Criar/Entrar</h2>
+        <h2 >Criar/Entrar</h2>
 
-            <form method="post" action="criarPage.php" name="f1" id="form">
-                <input type="text" name="Nome" id="Nome" placeholder="Nome" required>
-                <br><br>
-                <input type="text" name="Email" id="Email" onblur="validacaoEmail(f1.email)" placeholder="Email" required>
-                <br><br>
-                <input type="password" name="Senha" id="Senha" placeholder="Senha" required>
-                <br><br>
-                <div id="afk">
-                <input type="submit" name="blogin" id="blogin" class="btn " value="Entrar">
+        <form method="post" action="criarPage.php" name="f1" id="form">
+            <input type="text" name="Nome" id="Nome" placeholder="Nome" required>
+            <br><br>
+            <input type="text" name="Email" id="Email" onblur="validacaoEmail(f1.email)" placeholder="Email" required>
+            <br><br>
+            <input type="password" name="Senha" id="Senha" placeholder="Senha" required>
+            <br><br>
+            <div id="afk">
+            <input type="submit" name="blogin" id="blogin" class="btn " value="Entrar">
 
-                </div>
-            </form>
+            </div>
+        </form>
 
-            <div id="msgemail"></div>
+        <div id="msgemail"></div>
 
-        </div>
     </div>
+</div>
 
 </body>
 
