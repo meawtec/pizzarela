@@ -7,6 +7,7 @@ $Sresult = $conexao->query($select);
 
 //print_r($Sresult)
 ?>
+
 <!DOCTYPE html>
 <html lang="utf-8">
 <head>
