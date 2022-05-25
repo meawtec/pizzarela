@@ -71,7 +71,6 @@ echo $_COOKIE['email'];
 }
 
 
-
 ?>
 </h6>
 

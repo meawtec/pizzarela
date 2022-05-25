@@ -19,7 +19,7 @@ if (!empty($_GET['id'])) {
         $sqlUpdate = "UPDATE tbadmin SET nome = '$nome', email = '$email', senha = '$senha', adm = '$admin' WHERE id = '$id' ";
         $sql = mysqli_query($conexao, $sqlUpdate);
 
-        header('Location: ../index.php');
+        header('Location: alterar.php');
     }
 
 }
@@ -69,7 +69,7 @@ if (!empty($_GET['id'])) {
 
 <body >
     <button id="volt2">
-        <a id="voltar" href="../index.php">Voltar</a>
+        <a id="voltar" href="alterar.php">Voltar</a>
     </button>
     
 
