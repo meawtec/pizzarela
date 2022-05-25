@@ -74,34 +74,34 @@ if (isset($_POST['blogin'])) {
 </head>
 
 <body >
-<a id="voltar" href="../index.php">
-  <button id="volt">
+<a class="voltar" href="../index.php">
+  <button class="volt">
           <h6>Voltar</h6> 
   </button>
 </a>
     
 
-<div id="div2login">
+<div class="div2login">
 
-    <div id="divlogin">
+    <div class="divlogin">
 
 
         <h2 >Criar/Entrar</h2>
 
-        <form method="post" action="criarPage.php" name="f1" id="form">
-            <input type="text" name="Nome" id="Nome" placeholder="Nome" required>
+        <form method="post" action="criarPage.php" name="f1" class="form">
+            <input type="text" name="Nome" class="Nome" placeholder="Nome" required>
             <br><br>
-            <input type="text" name="Email" id="Email" onblur="validacaoEmail(f1.email)" placeholder="Email" required>
+            <input type="text" name="Email" class="Email" onblur="validacaoEmail(f1.email)" placeholder="Email" required>
             <br><br>
-            <input type="password" name="Senha" id="Senha" placeholder="Senha" required>
+            <input type="password" name="Senha" class="Senha" placeholder="Senha" required>
             <br><br>
             <div id="afk">
-            <input type="submit" name="blogin" id="blogin" class="btn " value="Entrar">
-
+            <input type="submit" name="blogin" class="blogin btn " value="Entrar">
+ 
             </div>
         </form>
 
-        <div id="msgemail"></div>
+        <div class="msgemail"></div>
 
     </div>
 </div>
