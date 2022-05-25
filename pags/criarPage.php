@@ -13,8 +13,11 @@ if (isset($_POST['blogin'])) {
     $resulte = $conexao->query($sql);
 
         if ($resulte->num_rows > 0) {
-            echo "esse email ja existe <br>";
-            header('Location: criarPage.php');
+            echo"<script language='javascript' type='text/javascript'>
+            alert('Este email já esta em uso.');window.location
+            .href='criarPage.php';</script>";
+    
+           // header('Location: criarPage.php');
             return;
         } else {
             echo "de boa chefia <br>";
