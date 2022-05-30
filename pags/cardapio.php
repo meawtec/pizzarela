@@ -42,8 +42,6 @@
         <button class="btn btn-outline-success" type="submit">Pesquisar</button>
       </form>
       <h6 id="gmail">  
-        
-<?php 
 
 
           <form class="d-flex">
