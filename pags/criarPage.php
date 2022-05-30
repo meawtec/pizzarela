@@ -95,7 +95,7 @@ if (isset($_POST['blogin'])) {
             <br><br>
             <input type="password" name="Senha" class="Senha" placeholder="Senha" required>
             <br><br>
-            <div id="afk">
+            <div class="afk">
             <input type="submit" name="blogin" class="blogin btn " value="Entrar">
  
             </div>

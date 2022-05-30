@@ -1,23 +1,21 @@
 *{
     margin: 0%;
     padding: 0%;
-}
-#div2login{
+}.div2login{
     padding: 250px;
     border-radius: 2pc;
     
-}
-#form{
+}.form{
     padding: 10px;
     
-}#Nome{
+}.Nome{
     border-radius: 10px;
     border: 10%;
     border-color: rgb(248, 248, 248);
     padding: 10px;
     background-color: transparent;
 
-}#Email{
+}.Email{
     border-radius: 10px;
     border: 10%;
     background-color: transparent;
@@ -40,19 +38,19 @@
     background-color: transparent;
     cursor: text;
 
-}#Senha{
+}.Senha{
     border-radius: 10px;
     border: 10%;
     border-color: rgb(248, 248, 248);
     padding: 10px;
     background-color: transparent;
 
-}#blogin{
+}.blogin{
     background-color: rgb(0, 0, 0);
     color: white;
     border-radius: 10px;
     
-}#entrarL{
+}.entrarL{
     background-color: rgb(0, 0, 0);
     color: white;
     text-decoration: none ;
@@ -73,11 +71,11 @@
     font-family: Arial, Helvetica, sans-serif;
     
     
-}#voltar{
+}.voltar{
     text-decoration: none;
     color: aliceblue;
     text-align: center;
-}#volt{
+}.volt{
     border-bottom-right-radius: 20px;
     background-color: rgb(0, 0, 0);
     border: none;
@@ -85,7 +83,7 @@
     width: 130px;
     cursor: pointer;
 
-}#volt2{
+}.volt2{
     border-bottom-right-radius: 20px;
     background-color: rgb(0, 0, 0);
     border: none;
@@ -100,7 +98,7 @@
 }input{
     color: rgb(242, 242, 242);
     font-family: Arial, Helvetica, sans-serif;
-}#olho{
+}.olho{
     display: flex;
 
 }#cadiado{
@@ -108,7 +106,7 @@
     height: 45px;
    color: rgb(255, 255, 255);
    cursor: pointer;
-}#cadas{
+}.cadas{
     text-decoration: none;
     color: aliceblue;
 }

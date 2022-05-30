@@ -51,8 +51,8 @@
           <br>
   </nav>
 
-  <div id="divpeca">
-    <div id="pnn">
+  <div class="divpeca">
+    <div class="pnn">
 
     </div>
   </div>

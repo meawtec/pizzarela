@@ -31,21 +31,21 @@ if (isset($_POST['entrarL'])) {
 </head>
 
 <body>
-  <a id="voltar" href="../index.php">
-    <button id="volt">
+  <a class="voltar" href="../index.php">
+    <button class="volt">
       <h4>Voltar</h4>
     </button>
   </a>
 
-  <div id="div2login">
+  <div class="div2login">
 
-    <div id="divlogin">
+    <div class="divlogin">
       <h1>Cadastrar</h1>
 
-      <form id="form" method="POST" action="loginPage.php"><br>
+      <form class="form" method="POST" action="loginPage.php"><br>
         <label></label><input type="text" placeholder="Email" name="emailL" id="emailL"><br>
         <br>
-        <div id="olho">
+        <div class="olho">
           <label></label><input type="password" placeholder="Senha" name="senha" id="senha"><img id="cadiado" src="../imagens/cadiado.png" alt="...">
           
 
@@ -53,9 +53,9 @@ if (isset($_POST['entrarL'])) {
 
         <br>
         <br>
-        <input type="submit" value="entrar" id="entrarL" name="entrarL"><br>
+        <input type="submit" value="entrar" class="entrarL" name="entrarL"><br>
         <br>
-        <a id="cadas" href="criarPage.php">Cadastre-se</a>
+        <a class="cadas" href="criarPage.php">Cadastre-se</a>
     </div>
   </div>
 
