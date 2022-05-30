@@ -17,6 +17,7 @@ $Sresult = $conexao->query($select);
     <title>Document</title>
 </head>
 <body>
+    <a href="../index.php"> voltar </a>
 
             <div>
                 <table class="table">

@@ -42,6 +42,7 @@ if (isset($_COOKIE['email'])) {
           <li class="nav-item">
 
 
+
             <a class="nav-link active" aria-current="page" href="pags/cardapio.php">Peça online</a>
           </li>
           <a class="nav-link active" aria-current="page" href="pags/carrinho.php">Carrinho</a>
@@ -61,8 +62,6 @@ if (isset($_COOKIE['email'])) {
           <?php
           endif
           ?>
-
-
           </form>
           <h6 class="gmail">
             <?php

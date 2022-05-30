@@ -25,14 +25,26 @@
           <li class="nav-item">
 
 
-            <a class="nav-link active" aria-current="page" href="cardapio.php">Peça online</a>
-          </li>
-          <a class="nav-link active" aria-current="page" href="carrinho.php">Carrinho</a>
-          </li>
-          <a class="nav-link active" aria-current="page" href="sobrenos.php">Sobre nos</a>
-          </li>
-          <a class="nav-link active" aria-current="page" href="criarPage.php">Login Temporário</a>
-          </li>
+
+          <a class="nav-link active" aria-current="page" href="cardapio.php">Peça online</a>
+        </li>
+        <a class="nav-link active" aria-current="page" href="carrinho.php">Cardapio</a>
+        </li>
+        <a class="nav-link active" aria-current="page" href="sobrenos.php">Sobre nos</a>
+        </li>
+        <a class="nav-link active" aria-current="page" href="criarPage.php">Criar</a>
+        </li>
+        <a class="nav-link active" aria-current="page" href="loginPage.php">Entrar</a>
+        </li>
+        
+        <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Peça online" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+      </form>
+      <h6 id="gmail">  
+        
+<?php 
+
 
           <form class="d-flex">
             
