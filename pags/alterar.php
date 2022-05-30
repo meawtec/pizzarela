@@ -23,12 +23,12 @@ $Sresult = $conexao->query($select);
 
 <body>
     <a class="voltar" href="../index.php">
-        <button class="volt">
-            <h6>Voltar</h6>
+        <button class="volt btn btn-success  ">
+            <h6 >Voltar</h6>
         </button>
     </a>
     <div>
-        <table class="table table-dark table-striped">
+        <table class="table table-success table-striped">
             <thead>
                 <tr>
                     <th scope="col">ID</th>
