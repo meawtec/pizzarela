@@ -27,6 +27,7 @@ $Sresult = $conexao->query($select);
             <h6 >Voltar</h6>
         </button>
     </a>
+    <br>
     <div>
         <table class="table table-success table-striped">
             <thead>

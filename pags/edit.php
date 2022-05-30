@@ -68,30 +68,30 @@ if (!empty($_GET['id'])) {
 </head>
 
 <body >
-    <button id="volt2">
-        <a id="voltar" href="alterar.php">Voltar</a>
+    <button class="volt2">
+        <a class="voltar" href="alterar.php">Voltar</a>
     </button>
     
 
-    <div id="div2login">
+    <div class="div2login">
 
-        <div id="divlogin">
+        <div class="divlogin">
 
 
             <h2 >Criar/Entrar</h2>
 
             <form method="post" action="edit.php?id=<?php echo $id?>" name="f1" id="form">
-                <input type="text" name="Nome" id="Nome" placeholder="Nome" value="<?php echo $user['nome'] ?>" required>
+                <input type="text" name="Nome" class="Nome" placeholder="Nome" value="<?php echo $user['nome'] ?>" required>
                 <br><br>
-                <input type="text" name="Email" id="Email" onblur="validacaoEmail(f1.email)" value="<?php echo $user['email'] ?>" placeholder="Email" required>
+                <input type="text" name="Email" class="Email" onblur="validacaoEmail(f1.email)" value="<?php echo $user['email'] ?>" placeholder="Email" required>
                 <br><br>
-                <input type="password" name="Senha" id="Senha" placeholder="Senha" value="<?php echo $user['senha'] ?>" required>
+                <input type="password" name="Senha" class="Senha" placeholder="Senha" value="<?php echo $user['senha'] ?>" required>
                 <br><br>
                 <label for="Admin">Admin:</label>
-                <input type="checkbox" name="Admin" id="Admin" value="1" <?php echo $user['adm'] == 1 ? 'checked' : 'unchecked'; ?>>
+                <input type="checkbox" name="Admin" class="Admin" value="1" <?php echo $user['adm'] == 1 ? 'checked' : 'unchecked'; ?>>
                 <br><br>
-                <div id="afk">
-                <input type="submit" name="blogin" id="blogin" class="btn " value="Entrar">
+                <div class="afk">
+                <input type="submit" name="blogin" class="blogin btn" value="Entrar">
 
                 </div>
             </form>
