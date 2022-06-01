@@ -86,7 +86,7 @@ if (isset($_COOKIE['email'])) {
       <div id="retapromo" class="retapromo">
 
         <div class="card" style="width: 18rem;" id="cardpromo">
-          <img src="imagens/pizza1.png" class="card-img-top" alt="...">
+          <img src="imagens/pizza1.png" class="card-img-top" alt="10px">
           <div class="card-body">
             <p class="card-text">Aqui tem uma Pizza muito gostosa hmmmmmm.</p>
             <button type="button" class="btn btn-success" href="/pags/carrinho.php">Ver</button>
@@ -94,7 +94,7 @@ if (isset($_COOKIE['email'])) {
 
         </div>
         <div class="card" style="width: 18rem;" id="cardpromo">
-          <img src="imagens/Refri.png" class="card-img-top" alt="...">
+          <img src="imagens/Refri.png" class="card-img-top" alt="10px">
 
           <div class="card-body">
             <p class="card-text">Aqui tem uma Pizza muito gostosa hmmmmmm.</p>
@@ -104,7 +104,7 @@ if (isset($_COOKIE['email'])) {
           </div>
         </div>
         <div class="card" style="width: 18rem;" id="cardpromo">
-          <img src="imagens/pizza1.png" class="card-img-top" alt="...">
+          <img src="imagens/pizza1.png" class="card-img-top" alt="10px">
           <div class="card-body">
             <p class="card-text">Aqui tem uma Pizza muito gostosa hmmmmmm.</p>
             <button type="button" class="btn btn-success" href="/pags/carrinho.php">Ver</button>
@@ -112,7 +112,7 @@ if (isset($_COOKIE['email'])) {
 
         </div>
         <div class="card" style="width: 18rem;" id="cardpromo">
-          <img src="imagens/pizza1.png" class="card-img-top" alt="...">
+          <img src="imagens/pizza1.png" class="card-img-top" alt="10px">
 
           <div class="card-body">
             <p class="card-text">Aqui tem uma Pizza muito gostosa hmmmmmm.</p>
@@ -150,9 +150,9 @@ if (isset($_COOKIE['email'])) {
           </div>
         </div>
         <div class="card" style="width: 18rem;" id="cardpromo">
-          <img src="imagens/pizza1.png" class="card-img-top" alt="...">
+          <img src="imagens/pizza1.png" class="card-img-top" alt="auto">
           <div class="card-body">
-            <p class="card-text">Aqui tem uma Pizza muito gostosa hmmmmmm.</p>
+            <p class="card-text">Aqui tem uma manteiga muito gostosa hmmmmmm.</p>
             <button type="button" class="btn btn-success" href="/pags/carrinho.php">Ver</button>
           </div>
         </div><br>
