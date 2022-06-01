@@ -92,27 +92,28 @@ if (isset($_COOKIE['email'])) {
 
   <div class="divpeca">
     
-    <div class="pnn">
+    <div class="pnn ">
       <h2>Escolha seu metodo de entrega</h2>      
   <div class="card divpeca">
     <div class="card-form pnn">
       <nav>
         <div class="nav nav-tabs border-dark" id="nav-tab" role="tablist">
-          <button class="nav-link active " id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Em casa</button>
+          <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Em casa</button>
 
           <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Buscar</button>
         </div>
       </nav>
 
       <div class="tab-content border-dark" id="nav-tabContent">
-        <div class="tab-pane fade show active text-bg-primary p-3" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+
+        <div class="tab-pane fade show active text-bg-success p-3" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
           <p>fazendo o pedido aqui</p><br>
 
           <p>escolhendo quantidade de pizzas por aqui</p><br>
 
           <p>comendo aqui</p><br>
         </div>
-        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+        <div class="tab-pane fade text-bg-success" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
           <p>fazendo o pedido aqui</p><br>
 
           <p>mostrando onde é a pizzaria</p><br>
