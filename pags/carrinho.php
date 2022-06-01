@@ -43,7 +43,7 @@
 
           </form>
 
-          <h6 class="gmail1">
+          <h6 class="gmail">
             <?php
 
             if (isset($_COOKIE['email'])) {
