@@ -50,10 +50,16 @@ if (isset($_COOKIE['email'])) {
           </li>
         <a class="nav-link active" aria-current="page" href="sobrenos.php">Sobre nos</a>
         </li>
-        <a class="nav-link active" aria-current="page" href="criarPage.php">Criar</a>
-        </li>
-        <a class="nav-link active" aria-current="page" href="loginPage.php">Entrar</a>
-        </li>
+        <?php
+          if(!isset($_COOKIE['email'])) : 
+          ?>
+          <a class="nav-link active" aria-current="page" href="pags/criarPage.php">Criar</a>
+          </li>
+          <a class="nav-link active" aria-current="page" href="pags/loginPage.php">Entrar</a>
+          </li>
+          <?php
+          endif
+          ?>
         <?php
           if ($ademiro) :
           ?>
