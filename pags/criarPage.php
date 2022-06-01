@@ -85,16 +85,15 @@ if (isset($_POST['blogin'])) {
     </a>
 
 
-<<<<<<< HEAD
+
     <div class="div2login">
-=======
+
         <h2 >Criar</h2>
->>>>>>> ff2ceb1d54f835b27f47a33a9fcf428ccb9cb9f9
 
         <div class="divlogin">
 
 
-            <h2>Criar/Entrar</h2>
+           
 
             <form method="post" action="criarPage.php" name="f1" class="form">
                 <input type="text" name="Nome" class="Nome" placeholder="Nome" required>
