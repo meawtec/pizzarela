@@ -24,20 +24,20 @@
           <li class="nav-item">
 
 
-        <a class="nav-link active" aria-current="page" href="cardapio.php">Peça online</a>
-        </li>
-        <a class="nav-link active" aria-current="page" href="carrinho.php">Cardapio</a>
-        </li>
-        <a class="nav-link active" aria-current="page" href="sobrenos.php">Sobre nos</a>
-        </li>
-        <a class="nav-link active" aria-current="page" href="criarPage.php">Criar</a>
-        </li>
-        <a class="nav-link active" aria-current="page" href="loginPage.php">Entrar</a>
-        </li>
-        
-        <form class="d-flex">
-        
-      </form>
+            <a class="nav-link active" aria-current="page" href="cardapio.php">Peça online</a>
+          </li>
+          <a class="nav-link active" aria-current="page" href="carrinho.php">Cardapio</a>
+          </li>
+          <a class="nav-link active" aria-current="page" href="sobrenos.php">Sobre nos</a>
+          </li>
+          <a class="nav-link active" aria-current="page" href="criarPage.php">Criar</a>
+          </li>
+          <a class="nav-link active" aria-current="page" href="loginPage.php">Entrar</a>
+          </li>
+
+          <form class="d-flex">
+
+          </form>
 
           <form class="d-flex">
 
