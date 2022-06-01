@@ -20,7 +20,8 @@ if (isset($_COOKIE['email'])) {
 <head>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-  <link href="estilo/estilo1.css" rel="stylesheet">
+  <link href="../estilo/estilo2.css" rel="stylesheet">
+
   <meta charset="UTF-8">
   <title>Pizzaria</title>
 
@@ -40,17 +41,18 @@ if (isset($_COOKIE['email'])) {
           <li class="nav-item">
 
 
+
           <a class="nav-link active" aria-current="page" href="peça.php">Peça online</a>
           </li>
           <a class="nav-link active" aria-current="page" href="cardapio.php">Cardapio</a>
           </li>
-          <a class="nav-link active" aria-current="page" href="sobrenos.php">Sobre nos</a>
-          </li>
-          <a class="nav-link active" aria-current="page" href="criarPage.php">Criar</a>
-          </li>
-          <a class="nav-link active" aria-current="page" href="loginPage.php">Entrar</a>
-          </li>
-          <?php
+        <a class="nav-link active" aria-current="page" href="sobrenos.php">Sobre nos</a>
+        </li>
+        <a class="nav-link active" aria-current="page" href="criarPage.php">Criar</a>
+        </li>
+        <a class="nav-link active" aria-current="page" href="loginPage.php">Entrar</a>
+        </li>
+        <?php
           if ($ademiro) :
           ?>
             <a nome="alterar" id="alterar" class="nav-link active" aria-current="page" href="pags/alterar.php">Alterar</a>
@@ -59,6 +61,16 @@ if (isset($_COOKIE['email'])) {
           <?php
           endif
           ?>
+      
+        <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Peça online" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+      </form>
+      <h6 class="gmail">  
+
+
+          <form class="d-flex">
+            
           </form>
           <h6 class="gmail">
             <?php
@@ -68,19 +80,20 @@ if (isset($_COOKIE['email'])) {
             }
 
 
+
             ?>
           </h6>
-          </h6>
           <br>
-
-      </div>
-    </div>
   </nav>
 
-  <div>
+  <div class="divpeca">
+    <div class="pnn">
 
-
+    </div>
   </div>
+
+
+
 
 </body>
 

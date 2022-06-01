@@ -20,9 +20,10 @@ if (isset($_POST['blogin'])) {
            // header('Location: criarPage.php');
             return;
         } else {
-            echo "de boa chefia <br>";
+            setcookie("email", $email, time() + (86400 * 30), "/");
+          //  echo "de boa chefia <br>";
             $result = mysqli_query($conexao, "INSERT INTO tbadmin(nome,email,senha) VALUES ('$nome','$email','$senha')");
-            header('Location: ../index.php');
+           header('Location: ../index.php');
         }
 
 
@@ -86,7 +87,7 @@ if (isset($_POST['blogin'])) {
     <div class="divlogin">
 
 
-        <h2 >Criar/Entrar</h2>
+        <h2 >Criar</h2>
 
         <form method="post" action="criarPage.php" name="f1" class="form">
             <input type="text" name="Nome" class="Nome" placeholder="Nome" required>
