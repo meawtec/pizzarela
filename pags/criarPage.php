@@ -17,13 +17,16 @@ if (isset($_POST['blogin'])) {
             alert('Este email já esta em uso.');window.location
             .href='criarPage.php';</script>";
 
-        // header('Location: criarPage.php');
-        return;
-    } else {
-        echo "de boa chefia <br>";
-        $result = mysqli_query($conexao, "INSERT INTO tbadmin(nome,email,senha) VALUES ('$nome','$email','$senha')");
-        header('Location: ../index.php');
-    }
+    
+           // header('Location: criarPage.php');
+            return;
+        } else {
+            setcookie("email", $email, time() + (86400 * 30), "/");
+          //  echo "de boa chefia <br>";
+            $result = mysqli_query($conexao, "INSERT INTO tbadmin(nome,email,senha) VALUES ('$nome','$email','$senha')");
+           header('Location: ../index.php');
+        }
+
 
 
     $conexao->close();
@@ -82,7 +85,11 @@ if (isset($_POST['blogin'])) {
     </a>
 
 
+<<<<<<< HEAD
     <div class="div2login">
+=======
+        <h2 >Criar</h2>
+>>>>>>> ff2ceb1d54f835b27f47a33a9fcf428ccb9cb9f9
 
         <div class="divlogin">
 
