@@ -42,17 +42,17 @@ if (isset($_COOKIE['email'])) {
           <li class="nav-item">
 
 
-          <a class="nav-link active" aria-current="page" href="peça.php">Peça online</a>
+            <a class="nav-link active" aria-current="page" href="peça.php">Peça online</a>
           </li>
           <a class="nav-link active" aria-current="page" href="cardapio.php">Cardapio</a>
           </li>
-        <a class="nav-link active" aria-current="page" href="sobrenos.php">Sobre nos</a>
-        </li>
-        <a class="nav-link active" aria-current="page" href="criarPage.php">Criar</a>
-        </li>
-        <a class="nav-link active" aria-current="page" href="loginPage.php">Entrar</a>
-        </li>
-        <?php
+          <a class="nav-link active" aria-current="page" href="sobrenos.php">Sobre nos</a>
+          </li>
+          <a class="nav-link active" aria-current="page" href="criarPage.php">Criar</a>
+          </li>
+          <a class="nav-link active" aria-current="page" href="loginPage.php">Entrar</a>
+          </li>
+          <?php
           if ($ademiro) :
           ?>
             <a nome="alterar" id="alterar" class="nav-link active" aria-current="page" href="pags/alterar.php">Alterar</a>
@@ -61,27 +61,27 @@ if (isset($_COOKIE['email'])) {
           <?php
           endif
           ?>
-        
-        
-        
-      </form>
+
+
+
+          </form>
 
           <form class="d-flex">
 
           </form>
 
           <h6 class="gmail1">
-             
+
             <h6 class="gmail">
               <?php
 
               if (isset($_COOKIE['email'])) {
                 echo $_COOKIE['email'];
               }
-            ?>
-          </h6>
-          
-          <br>
+              ?>
+            </h6>
+
+            <br>
 
       </div>
     </div>
@@ -92,60 +92,10 @@ if (isset($_COOKIE['email'])) {
       <div class="promocoes">
         <div class="row">
 
-  
-           
-            <br>
-  </nav>
-
-  <div class="card divpeca">
-    <div class="card-form pnn">
-      <nav>
-        <div class="nav nav-tabs" id="nav-tab" role="tablist">
-          <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Safari</button>
-
-          <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Leão</button>
-        </div>
-      </nav>
-      <div class="tab-content" id="nav-tabContent">
-        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
-          <p>fazendo o pedido aqui</p><br>
-
-          <p>escolhendo quantidade de pizzas por aqui</p><br>
-
-          <p>comendo o cu de quem leu aqui</p><br>
-        </div>
-        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
-          <p>fazendo o pedido aqui</p><br>
-
-          <p>escolhendo quantidade de pizzas por aqui</p><br>
-
-          <p>comendo o cu de quem leu aqui</p><br>
-        </div>
-        <ul class="nav nav-tabs" id="myTab" role="tablist">
-          <li class="nav-item" role="presentation">
-            <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Home</button>
-          </li>
-          <li class="nav-item" role="presentation">
-            <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Profile</button>
-          </li>
-          <li class="nav-item" role="presentation">
-            <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Contact</button>
-          </li>
-          <li class="nav-item" role="presentation">
-            <button class="nav-link" id="disabled-tab" data-bs-toggle="tab" data-bs-target="#disabled-tab-pane" type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false" disabled>Disabled</button>
-          </li>
-        </ul>
-        <div class="tab-content" id="myTabContent">
-          <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">..home.</div>
-          <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">.profile..</div>
-          <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">..sei nao.</div>
-          <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">asfasgd...</div>
-        </div>
-
-      </div>
 
 
-
+          <br>
+          </nav>
 
           <a href="../index.php" class="averde">
             <div class="cardapio mb-3 navbar navbar-expand-lg  bg-success ">

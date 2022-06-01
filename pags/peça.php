@@ -19,6 +19,8 @@ if (isset($_COOKIE['email'])) {
 
 <head>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
 
   <link href="../estilo/estilo2.css" rel="stylesheet">
 
@@ -87,7 +89,32 @@ if (isset($_COOKIE['email'])) {
   </nav>
 
   <div class="divpeca">
+    
     <div class="pnn">
+      <h2>Escolha seu metodo de entrega</h2>      
+  <div class="card divpeca">
+    <div class="card-form pnn">
+      <nav>
+        <div class="nav nav-tabs border-dark" id="nav-tab" role="tablist">
+          <button class="nav-link active " id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Em casa</button>
+
+          <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Buscar</button>
+        </div>
+      </nav>
+
+      <div class="tab-content border-dark" id="nav-tabContent">
+        <div class="tab-pane fade show active text-bg-primary p-3" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+          <p>fazendo o pedido aqui</p><br>
+
+          <p>escolhendo quantidade de pizzas por aqui</p><br>
+
+          <p>comendo aqui</p><br>
+        </div>
+        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+          <p>fazendo o pedido aqui</p><br>
+
+          <p>mostrando onde é a pizzaria</p><br>
+        </div>
 
     </div>
   </div>
