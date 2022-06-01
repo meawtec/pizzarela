@@ -4,13 +4,13 @@ if (!empty($_GET['id'])) {
     include_once('../controle/configbd.php');
 
     $id = $_GET['id'];
-    
+
     $sqlSeleect = "SELECT * FROM tbadmin WHERE id = '$id'";
     $sql = mysqli_query($conexao, $sqlSeleect);
-    
+
     $user = mysqli_fetch_assoc($sql);
 
-    if($_SERVER['REQUEST_METHOD'] == "POST") {
+    if ($_SERVER['REQUEST_METHOD'] == "POST") {
         $nome = $_POST['Nome'];
         $email = $_POST['Email'];
         $senha = $_POST['Senha'];
@@ -21,7 +21,6 @@ if (!empty($_GET['id'])) {
 
         header('Location: alterar.php');
     }
-
 }
 
 
@@ -64,23 +63,25 @@ if (!empty($_GET['id'])) {
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../estilo/estiloLogin.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
 
 </head>
 
-<body >
+<body>
     <button class="volt2">
         <a class="voltar" href="alterar.php">Voltar</a>
     </button>
-    
+
 
     <div class="div2login">
 
         <div class="divlogin">
 
 
-            <h2 >Criar/Entrar</h2>
+            <h2>Criar/Entrar</h2>
 
-            <form method="post" action="edit.php?id=<?php echo $id?>" name="f1" id="form">
+            <form method="post" action="edit.php?id=<?php echo $id ?>" name="f1" id="form">
                 <input type="text" name="Nome" class="Nome" placeholder="Nome" value="<?php echo $user['nome'] ?>" required>
                 <br><br>
                 <input type="text" name="Email" class="Email" onblur="validacaoEmail(f1.email)" value="<?php echo $user['email'] ?>" placeholder="Email" required>
@@ -91,7 +92,7 @@ if (!empty($_GET['id'])) {
                 <input type="checkbox" name="Admin" class="Admin" value="1" <?php echo $user['adm'] == 1 ? 'checked' : 'unchecked'; ?>>
                 <br><br>
                 <div class="afk">
-                <input type="submit" name="blogin" class="blogin btn" value="Entrar">
+                    <input type="submit" name="blogin" class="blogin btn" value="Entrar">
 
                 </div>
             </form>

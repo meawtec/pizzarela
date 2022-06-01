@@ -6,28 +6,27 @@ if (isset($_POST['blogin'])) {
     $nome = $_POST['Nome'];
     $email = $_POST['Email'];
     $senha = $_POST['Senha'];
-    
+
     echo $email;
 
     $sql = "SELECT * FROM tbadmin WHERE email = '$email'";
     $resulte = $conexao->query($sql);
 
-        if ($resulte->num_rows > 0) {
-            echo"<script language='javascript' type='text/javascript'>
+    if ($resulte->num_rows > 0) {
+        echo "<script language='javascript' type='text/javascript'>
             alert('Este email já esta em uso.');window.location
             .href='criarPage.php';</script>";
-    
-           // header('Location: criarPage.php');
-            return;
-        } else {
-            echo "de boa chefia <br>";
-            $result = mysqli_query($conexao, "INSERT INTO tbadmin(nome,email,senha) VALUES ('$nome','$email','$senha')");
-            header('Location: ../index.php');
-        }
+
+        // header('Location: criarPage.php');
+        return;
+    } else {
+        echo "de boa chefia <br>";
+        $result = mysqli_query($conexao, "INSERT INTO tbadmin(nome,email,senha) VALUES ('$nome','$email','$senha')");
+        header('Location: ../index.php');
+    }
 
 
     $conexao->close();
-
 }
 
 
@@ -70,41 +69,43 @@ if (isset($_POST['blogin'])) {
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../estilo/estiloLogin.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
 
 </head>
 
-<body >
-<a class="voltar" href="../index.php">
-  <button class="volt">
-          <h6>Voltar</h6> 
-  </button>
-</a>
-    
-
-<div class="div2login">
-
-    <div class="divlogin">
+<body>
+    <a class="voltar" href="../index.php">
+        <button class="volt">
+            <h6>Voltar</h6>
+        </button>
+    </a>
 
 
-        <h2 >Criar/Entrar</h2>
+    <div class="div2login">
 
-        <form method="post" action="criarPage.php" name="f1" class="form">
-            <input type="text" name="Nome" class="Nome" placeholder="Nome" required>
-            <br><br>
-            <input type="text" name="Email" class="Email" onblur="validacaoEmail(f1.email)" placeholder="Email" required>
-            <br><br>
-            <input type="password" name="Senha" class="Senha" placeholder="Senha" required>
-            <br><br>
-            <div class="afk">
-            <input type="submit" name="blogin" class="blogin btn " value="Entrar">
- 
-            </div>
-        </form>
+        <div class="divlogin">
 
-        <div class="msgemail"></div>
 
+            <h2>Criar/Entrar</h2>
+
+            <form method="post" action="criarPage.php" name="f1" class="form">
+                <input type="text" name="Nome" class="Nome" placeholder="Nome" required>
+                <br><br>
+                <input type="text" name="Email" class="Email" onblur="validacaoEmail(f1.email)" placeholder="Email" required>
+                <br><br>
+                <input type="password" name="Senha" class="Senha" placeholder="Senha" required>
+                <br><br>
+                <div class="afk">
+                    <input type="submit" name="blogin" class="blogin btn " value="Entrar">
+
+                </div>
+            </form>
+
+            <div class="msgemail"></div>
+
+        </div>
     </div>
-</div>
 
 </body>
 
