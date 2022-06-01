@@ -74,7 +74,7 @@ if (!empty($_GET['id'])) {
     </button>
 
 
-    <div class="div2login">
+    <div class="div2login">   
 
         <div class="divlogin">
 
