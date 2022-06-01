@@ -16,3 +16,6 @@ echo"<script language='javascript' type='text/javascript'>
 
                 </div>
             </form>
+
+                        link para ocultar senha
+            https://acervolima.com/mostrar-e-ocultar-a-senha-usando-javascript/

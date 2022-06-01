@@ -50,11 +50,16 @@ if (isset($_POST['entrarL'])) {
       <form class="form" method="POST" action="loginPage.php"><br>
         <label></label><input type="text" placeholder="Email" name="emailL" id="emailL"><br>
         <br>
+       
         <div class="olho">
-          <label></label><input type="password" placeholder="Senha" name="senha" id="senha"><img id="cadiado" src="../imagens/cadiado.png" alt="...">
-
-
+          <label></label><input type="password" placeholder="Senha" name="senha" id="senha">
+          
+          <button ><img id="cadiado" src="../imagens/cadiado.png" alt="..."></button>
         </div>
+
+<script>
+   var senha = document.getElementById("typepass");
+</script>
 
         <br>
         <br>
