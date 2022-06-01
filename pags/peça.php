@@ -64,10 +64,6 @@ if (isset($_COOKIE['email'])) {
           endif
           ?>
       
-        <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Peça online" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Pesquisar</button>
-      </form>
       <h6 class="gmail">  
 
 
