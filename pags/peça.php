@@ -44,23 +44,23 @@ if (isset($_COOKIE['email'])) {
 
 
 
-          <a class="nav-link active" aria-current="page" href="peça.php">Peça online</a>
+            <a class="nav-link active" aria-current="page" href="peça.php">Peça online</a>
           </li>
           <a class="nav-link active" aria-current="page" href="cardapio.php">Cardapio</a>
           </li>
-        <a class="nav-link active" aria-current="page" href="sobrenos.php">Sobre nos</a>
-        </li>
-        <?php
-          if(!isset($_COOKIE['email'])) : 
+          <a class="nav-link active" aria-current="page" href="sobrenos.php">Sobre nos</a>
+          </li>
+          <?php
+          if (!isset($_COOKIE['email'])) :
           ?>
-          <a class="nav-link active" aria-current="page" href="pags/criarPage.php">Criar</a>
-          </li>
-          <a class="nav-link active" aria-current="page" href="pags/loginPage.php">Entrar</a>
-          </li>
+            <a class="nav-link active" aria-current="page" href="pags/criarPage.php">Criar</a>
+            </li>
+            <a class="nav-link active" aria-current="page" href="pags/loginPage.php">Entrar</a>
+            </li>
           <?php
           endif
           ?>
-        <?php
+          <?php
           if ($ademiro) :
           ?>
             <a nome="alterar" id="alterar" class="nav-link active" aria-current="page" href="pags/alterar.php">Alterar</a>
@@ -69,58 +69,61 @@ if (isset($_COOKIE['email'])) {
           <?php
           endif
           ?>
-      
-      <h6 class="gmail">  
 
-
-          <form class="d-flex">
-            
-          </form>
           <h6 class="gmail">
-            <?php
-
-            if (isset($_COOKIE['email'])) {
-              echo $_COOKIE['email'];
-            }
 
 
+            <form class="d-flex">
 
-            ?>
-          </h6>
-          <br>
+            </form>
+            <h6 class="gmail">
+              <?php
+
+              if (isset($_COOKIE['email'])) {
+                echo $_COOKIE['email'];
+              }
+
+
+
+              ?>
+            </h6>
+            <br>
   </nav>
 
   <div class="divpeca">
-    
+
     <div class="pnn ">
-      <h2>Escolha seu metodo de entrega</h2>      
-  <div class="card divpeca">
-    <div class="card-form pnn">
-      <nav>
-        <div class="nav nav-tabs border-dark" id="nav-tab" role="tablist">
-          <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Em casa</button>
+      <h2>Escolha seu metodo de entrega</h2>
+      <div class="card divpeca">
+        <div class="card-form pnn">
+          <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</button>
+            </li>
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+              1TEXTO <br>TExto e mais <br>
+              texto
+            </div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+              2TEXTO <br>TExto e mais <br>
+              texto
+            </div>
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+              3TEXTO <br>TExto e mais <br>
+              texto
+            </div>
+          </div>
 
-          <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Buscar</button>
         </div>
-      </nav>
-
-      <div class="tab-content border-dark" id="nav-tabContent">
-
-        <div class="tab-pane fade show active text-bg-success p-3" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
-          <p>fazendo o pedido aqui</p><br>
-
-          <p>escolhendo quantidade de pizzas por aqui</p><br>
-
-          <p>comendo aqui</p><br>
-        </div>
-        <div class="tab-pane fade text-bg-success" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
-          <p>fazendo o pedido aqui</p><br>
-
-          <p>mostrando onde é a pizzaria</p><br>
-        </div>
-
-    </div>
-  </div>
+      </div>
 
 
 
