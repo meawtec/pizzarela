@@ -25,7 +25,7 @@ $Sresult = $conexao->query($select);
 
 <body>
     <a class="voltar" href="../index.php">
-        <button class="volt btn btn-success  ">
+        <button class="volt btn btn-success ">
             <h6>Voltar</h6>
         </button>
     </a>

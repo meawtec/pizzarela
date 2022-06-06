@@ -30,7 +30,7 @@ if (isset($_COOKIE['email'])) {
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark ">
     <div class="container-fluid">
 
       <a class="navbar-brand" href="../index.php">Pizzarela</a>
