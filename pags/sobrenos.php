@@ -60,7 +60,7 @@ if (isset($_COOKIE['email'])) {
           <?php
           if ($ademiro) :
           ?>
-            <a nome="alterar" id="alterar" class="nav-link active" aria-current="page" href="pags/alterar.php">Alterar</a>
+            <a nome="alterar" id="alterar" class="nav-link active" aria-current="page" href="alterar.php">Alterar</a>
             </li>
 
           <?php
