@@ -98,11 +98,6 @@ if (isset($_COOKIE['email'])) {
       <div class="promocoes">
         <div class="row">
 
-
-
-          <br>
-          </nav>
-
           <a href="../index.php" class="averde">
             <div class="cardapio mb-3 navbar navbar-expand-lg  bg-success ">
               <div class="row g-0">
