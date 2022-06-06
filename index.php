@@ -82,9 +82,14 @@ if (isset($_COOKIE['email'])) {
           </h6>
 
 
-
-
-
+          <?php
+            if(isset($_COOKIE['email'])):
+          ?>
+          <form action="pags/logout.php" method="POST">
+            <button type="submit" href="#" onclick="deleteCookies()">Logout</button>
+          </form>
+          
+          <?php endif; ?>
           <br>
 
       </div>

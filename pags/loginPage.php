@@ -12,7 +12,7 @@ if (isset($_POST['entrarL'])) {
   $verifica = mysqli_query($conexao, "SELECT * FROM tbadmin WHERE email = '$emailL' AND senha = '$senha'") or die("erro ao selecionar");
   if (mysqli_num_rows($verifica) <= 0) {
     echo"<script language='javascript' type='text/javascript'>
-    alert('Este email já esta em uso.');window.location
+    alert('email ou senha incorretos.');window.location
     .href='loginPage.php';</script>";
     // header("Location:loginPage.php");
     
