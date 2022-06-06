@@ -64,7 +64,8 @@ if (isset($_COOKIE['email'])) {
           ?>
             <a nome="alterar" id="alterar" class="nav-link active" aria-current="page" href="pags/alterar.php">Alterar</a>
             </li>
-
+            <a nome="alterar" id="alterar" class="nav-link active" aria-current="page" href="pags/alterarp.php">Alterar</a>
+            </li>
 
           <?php
           endif

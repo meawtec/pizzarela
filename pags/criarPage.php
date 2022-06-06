@@ -100,7 +100,7 @@ if (isset($_POST['blogin'])) {
                 <br><br>
                 <input type="text" name="Email" class="Email" onblur="validacaoEmail(f1.email)" placeholder="Email" required>
                 <br><br>
-                <label></label><input type="password" placeholder="Senha" name="senha" id="senha">
+                <label></label><input type="password" placeholder="Senha" name="senha" id="senha" required>             
 
 <button type="button" onclick="Toggle()">
 <svg id= "cadiado" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16">
