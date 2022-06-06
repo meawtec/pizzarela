@@ -27,12 +27,12 @@ body{
 }.card{
 
     /*background-color:red;*/
-    background-color: rgb(198, 62, 62);
+    background-color: rgb(226, 65, 65);
 
     padding-left: 20px;
     border-radius: 30px;
 
-    border-color:rgb(0, 207, 138) ;
+    border-color: rgb(0, 207, 138);
     border-radius: 1pc;
     padding: 5px;
     display: flex;
@@ -67,4 +67,6 @@ body{
     transition: 1s;
 }p{
     color: aliceblue;
+}.navbar{
+    background-color: teal;
 }

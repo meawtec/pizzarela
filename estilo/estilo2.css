@@ -30,4 +30,6 @@ body {
 
 p {
     color: black;
+}.navbar{
+    background-color: teal;
 }
