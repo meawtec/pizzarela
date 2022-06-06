@@ -79,7 +79,7 @@ if (!empty($_GET['id'])) {
         <div class="divlogin">
 
 
-            <h2>Criar/Entrar</h2>
+            <h2>Alterar</h2>
 
             <form method="post" action="edit.php?id=<?php echo $id ?>" name="f1" id="form">
                 <input type="text" name="Nome" class="Nome" placeholder="Nome" value="<?php echo $user['nome'] ?>" required>
@@ -92,7 +92,7 @@ if (!empty($_GET['id'])) {
                 <input type="checkbox" name="Admin" class="Admin" value="1" <?php echo $user['adm'] == 1 ? 'checked' : 'unchecked'; ?>>
                 <br><br>
                 <div class="afk">
-                    <input type="submit" name="blogin" class="blogin btn" value="Entrar">
+                    <input type="submit" name="blogin" class="blogin btn" value="Alterar">
 
                 </div>
             </form>
