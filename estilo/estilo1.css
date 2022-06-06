@@ -10,19 +10,20 @@ body{
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 20px;
-    
     align-items: center;
     
 
 }.promocoes{
     background-color:rgb(0, 207, 138);
     border-radius: 20px;
+    align-items: center;
     
     
 }li{
     padding-inline-start: 20px;
 
 }.card{
+    align-items: center;
 
     /*background-color:red;*/
 
@@ -39,6 +40,7 @@ body{
     display: flex;
 
 }.retapromo{
+    align-items: center;
     display: inline-table;
     padding:5px;
     text-decoration: none;
@@ -51,6 +53,7 @@ body{
 
 }.cardapio{
     border-radius: 10px;
+    padding: 10px;
 }.olhar{
     align-items: flex-start;
 }.gmail{
@@ -63,6 +66,8 @@ body{
     text-decoration: none;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
+    transition: 1s;
+
     
 }.btn{
     transition: 1s;
@@ -70,4 +75,6 @@ body{
     color: aliceblue;
 }.navbar{
     background-color: teal;
+}.row{
+    padding: 5px;
 }
