@@ -19,14 +19,14 @@ body {
     padding: 20px;
     border-radius: 10px;
     align-items: center;
-}
-
-.gmail {
+}.gmail {
     color: white;
     align-items: flex-end;
     padding: 10px;
 
-}.fade
+}.nav-link{
+    background-color: transparent;
+}
 
 p {
     color: black;
