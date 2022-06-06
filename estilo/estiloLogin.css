@@ -82,6 +82,7 @@
     padding: 5px;
     width: 130px;
     cursor: pointer;
+    transition: 1s;
 
 }.volt2{
     border-bottom-right-radius: 20px;
@@ -90,6 +91,7 @@
     padding: 8px;
     width: 130px;
     cursor: pointer;
+    transition: 1s;
 
 }h4{
     color: aliceblue;
@@ -97,15 +99,15 @@
     color: aliceblue;
 }input{
     color: rgb(242, 242, 242);
-    font-family: Arial, Helvetica, sans-serif;
+    
 }.olho{
     display: flex;
 
 }#cadiado{
     width: 45px;
     height: 45px;
-   color: rgb(255, 255, 255);
-   cursor: pointer;
+    background-color: transparent;
+    cursor: pointer;
 }.cadas{
     text-decoration: none;
     color: aliceblue;

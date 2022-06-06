@@ -65,6 +65,14 @@ if (isset($_COOKIE['email'])) {
             <a nome="alterar" id="alterar" class="nav-link active" aria-current="page" href="pags/alterar.php">Alterar</a>
             </li>
 
+          <?php
+            if(isset($_COOKIE['email'])):
+          ?>
+          <form action="pags/logout.php" method="POST">
+            <button type="submit" class="logout" href="#" onclick="deleteCookies()">Logout</button>
+          </form>
+          
+          <?php endif; ?>
 
           <?php
           endif
@@ -80,17 +88,6 @@ if (isset($_COOKIE['email'])) {
 
             ?>
           </h6>
-
-
-          <?php
-            if(isset($_COOKIE['email'])):
-          ?>
-          <form action="pags/logout.php" method="POST">
-            <button type="submit" href="#" onclick="deleteCookies()">Logout</button>
-          </form>
-          
-          <?php endif; ?>
-          <br>
 
       </div>
     </div>
