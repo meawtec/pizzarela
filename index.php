@@ -81,6 +81,11 @@ if (isset($_COOKIE['email'])) {
             ?>
           </h6>
 
+            
+
+
+
+
           <br>
 
       </div>
