@@ -77,7 +77,7 @@
             <div class="cardapio mb-3 navbar navbar-expand-lg  bg-success ">
               <div class="row g-0">
                 <div class="col-md-4">
-                  <img src="../imagens/pizza1.png" class="img-fluid rounded-start" alt="...">
+                  <img src="../imagens/pizza1.png" class="img-fluid rounded-start" alt="18rem">
                 </div>
                 <div class="col-md-8">
                   <div class="card-body">
@@ -96,7 +96,7 @@
             <div class="cardapio mb-3 navbar navbar-expand-lg  bg-success ">
               <div class="row g-0">
                 <div class="col-md-4">
-                  <img src="../imagens/Refri.png" class="img-fluid rounded-start" alt="...">
+                  <img src="../imagens/Refri.png" class="img-fluid rounded-start" alt="18rem">
                 </div>
                 <div class="col-md-8">
                   <div class="card-body">
@@ -115,7 +115,7 @@
             <div class="cardapio mb-3 navbar navbar-expand-lg  bg-success ">
               <div class="row g-0">
                 <div class="col-md-4">
-                  <img src="../imagens/ham1.png" class="img-fluid rounded-start" alt="...">
+                  <img src="../imagens/ham1.png" class="img-fluid rounded-start" alt="18rem">
                 </div>
                 <div class="col-md-8">
                   <div class="card-body">

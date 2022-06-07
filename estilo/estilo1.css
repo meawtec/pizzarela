@@ -60,6 +60,7 @@ body{
     color: aliceblue;
     align-items: flex-end;
     padding: 10px;
+    padding-left: 500px;
     cursor: pointer;
     
 }body .averde{
@@ -81,7 +82,7 @@ body{
     border: none;
     padding-top:10px;
     padding-left: 5px;
-    padding-right: 100px;
+    padding-right: 5px;
     cursor: pointer;
     color: aliceblue;
     transition: 1s;

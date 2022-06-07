@@ -65,18 +65,14 @@ if (isset($_COOKIE['email'])) {
             <a nome="alterar" id="alterar" class="nav-link active" aria-current="page" href="pags/alterar.php">Alterar</a>
             </li>
 
-          <?php
-            if(isset($_COOKIE['email'])):
-          ?>
-          <form action="pags/logout.php" method="POST">
-            <button type="submit" class="logout" href="#" onclick="deleteCookies()">Logout</button>
-          </form>
-          
-          <?php endif; ?>
+            <?php
+            if (isset($_COOKIE['email'])) :
+            ?>
+              <form action="pags/logout.php" method="POST">
+                <button type="submit" class="logout" href="#" onclick="deleteCookies()">Logout</button>
+              </form>
 
-            <a nome="alterar" id="alterar" class="nav-link active" aria-current="page" href="pags/alterarp.php">Alterar</a>
-            </li>
-
+            <?php endif; ?>
 
           <?php
           endif
@@ -102,160 +98,160 @@ if (isset($_COOKIE['email'])) {
     <div id="promocoes" class="promocoes">
 
 
-        <div id="retapromo" class="retapromo">
+      <div id="retapromo" class="retapromo">
 
-          <div class="card" style="width: 18rem;" id="cardpromo">
-            <img src="imagens/pizza1.png" class="card-img-top" alt="10px">
-            <div class="card-body">
-              <p class="card-text">Aqui tem uma Pizza muito gostosa hmmmmmm.</p>
-              <button type="button" class="btn btn-success" href="/pags/carrinho.php">Ver</button>
-            </div>
-
+        <div class="card" style="width: 15rem;" id="cardpromo">
+          <img src="imagens/pizza1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Aqui tem uma Pizza muito gostosa hmmmmmm.</p>
+            <button type="button" class="btn btn-success" href="/pags/carrinho.php">Ver</button>
           </div>
-          <div class="card" style="width: 18rem;" id="cardpromo">
-            <img src="imagens/Refri.png" class="card-img-top" alt="10px">
-
-            <div class="card-body">
-              <p class="card-text">Aqui tem uma Pizza muito gostosa hmmmmmm.</p>
-
-
-              <button type="button" class="btn btn-success" href="/pags/carrinho.php">Ver</button>
-            </div>
-          </div>
-          <div class="card" style="width: 18rem;" id="cardpromo">
-            <img src="imagens/pizza1.png" class="card-img-top" alt="10px">
-            <div class="card-body">
-              <p class="card-text">Aqui tem uma Pizza muito gostosa hmmmmmm.</p>
-              <button type="button" class="btn btn-success" href="/pags/carrinho.php">Ver</button>
-            </div>
-
-          </div>
-          <div class="card" style="width: 18rem;" id="cardpromo">
-            <img src="imagens/pizza1.png" class="card-img-top" alt="10px">
-
-            <div class="card-body">
-              <p class="card-text">Aqui tem uma Pizza muito gostosa hmmmmmm.</p>
-
-
-              <button type="button" class="btn btn-success" href="/pags/carrinho.php">Ver</button>
-            </div>
-          </div><br>
-
-
 
         </div>
+        <div class="card" style="width: 15rem;" id="cardpromo">
+          <img src="imagens/Refri.png" class="card-img-top" alt="...">
 
-        <div id="retapromo" class="retapromo">
+          <div class="card-body">
+            <p class="card-text">Aqui tem uma Pizza muito gostosa hmmmmmm.</p>
 
-          <div class="card" style="width: 18rem;" id="cardpromo">
-            <img src="imagens/pizza1.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Aqui tem uma Pizza muito gostosa hmmmmm.</p>
-              <button type="button" class="btn btn-success" href="/pags/carrinho.php">Ver</button>
-            </div>
+
+            <button type="button" class="btn btn-success" href="/pags/carrinho.php">Ver</button>
           </div>
-          <div class="card" style="width: 18rem;" id="cardpromo">
-            <img src="imagens/pizza1.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Aqui tem uma Pizza muito gostosa hmmmmmm.</p>
-              <button type="button" class="btn btn-success" href="/pags/carrinho.php">Ver</button>
-            </div>
+        </div>
+        <div class="card" style="width: 15rem;" id="cardpromo">
+          <img src="imagens/pizza1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Aqui tem uma Pizza muito gostosa hmmmmmm.</p>
+            <button type="button" class="btn btn-success" href="/pags/carrinho.php">Ver</button>
           </div>
-          <div class="card" style="width: 18rem;" id="cardpromo">
-            <img src="imagens/pizza1.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Aqui tem uma Pizza muito gostosa hmmmmm.</p>
-              <button type="button" class="btn btn-success" href="/pags/carrinho.php">Ver</button>
-            </div>
-          </div>
-          <div class="card" style="width: 18rem;" id="cardpromo">
-            <img src="imagens/pizza1.png" class="card-img-top" alt="auto">
-            <div class="card-body">
-              <p class="card-text">Aqui tem uma manteiga muito gostosa hmmmmmm.</p>
-              <button type="button" class="btn btn-success" href="/pags/carrinho.php">Ver</button>
-            </div>
-          </div><br>
 
         </div>
-        <div id="retapromo" class="retapromo">
+        <div class="card" style="width: 15rem;" id="cardpromo">
+          <img src="imagens/pizza1.png" class="card-img-top" alt="...">
 
-          <div class="card" style="width: 18rem;" id="cardpromo">
-            <img src="imagens/pizza1.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Aqui tem uma Pizza muito gostosa hmmmmmm.</p>
-              <button type="button" class="btn btn-success" href="/pags/carrinho.php">Ver</button>
-            </div>
+          <div class="card-body">
+            <p class="card-text">Aqui tem uma Pizza muito gostosa hmmmmmm.</p>
 
+
+            <button type="button" class="btn btn-success" href="/pags/carrinho.php">Ver</button>
           </div>
-          <div class="card" style="width: 18rem;" id="cardpromo">
-            <img src="imagens/pizza1.png" class="card-img-top" alt="...">
+        </div><br>
 
-            <div class="card-body">
-              <p class="card-text">Aqui tem uma Pizza muito gostosa hmmmmmm.</p>
-
-
-              <button type="button" class="btn btn-success" href="/pags/carrinho.php">Ver</button>
-            </div>
-          </div>
-          <div class="card" style="width: 18rem;" id="cardpromo">
-            <img src="imagens/pizza1.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Aqui tem uma Pizza muito gostosa hmmmmmm.</p>
-              <button type="button" class="btn btn-success" href="/pags/carrinho.php">Ver</button>
-            </div>
-
-          </div>
-          <div class="card" style="width: 18rem;" id="cardpromo">
-            <img src="imagens/pizza1.png" class="card-img-top" alt="...">
-
-            <div class="card-body">
-              <p class="card-text">Aqui tem uma Pizza muito gostosa hmmmmmm.</p>
-
-
-              <button type="button" class="btn btn-success" href="/pags/carrinho.php">Ver</button>
-            </div>
-          </div><br>
-
-
-
-        </div>
-
-        <div id="retapromo" class="retapromo">
-
-          <div class="card" style="width: 18rem;" id="cardpromo">
-            <img src="imagens/pizza1.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Aqui tem uma Pizza muito gostosa hmmmmm.</p>
-              <button type="button" class="btn btn-success" href="/pags/carrinho.php">Ver</button>
-            </div>
-          </div>
-          <div class="card" style="width: 18rem;" id="cardpromo">
-            <img src="imagens/pizza1.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Aqui ha uma Pizza muito gostosa hmmmmmm.</p>
-              <button type="button" class="btn btn-success" href="/pags/carrinho.php">Ver</button>
-            </div>
-          </div>
-          <div class="card" style="width: 18rem;" id="cardpromo">
-            <img src="imagens/pizza1.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Aqui ha uma Pizza muito gostosa hmmmmm.</p>
-              <button type="button" class="btn btn-success" href="/pags/carrinho.php">Ver</button>
-            </div>
-          </div>
-          <div class="card" style="width: 18rem;" id="cardpromo">
-            <img src="imagens/pizza1.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Aqui ha uma Pizza muito gostosa hmmmmmm.</p>
-              <button type="button" class="btn btn-success" href="/pags/carrinho.php">Ver</button>
-            </div>
-          </div><br>
-
-        </div>
 
 
       </div>
+
+      <div id="retapromo" class="retapromo">
+
+        <div class="card" style="width: 15rem;" id="cardpromo">
+          <img src="imagens/pizza1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Aqui tem uma Pizza muito gostosa hmmmmm.</p>
+            <button type="button" class="btn btn-success" href="/pags/carrinho.php">Ver</button>
+          </div>
+        </div>
+        <div class="card" style="width: 15rem;" id="cardpromo">
+          <img src="imagens/pizza1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Aqui tem uma Pizza muito gostosa hmmmmmm.</p>
+            <button type="button" class="btn btn-success" href="/pags/carrinho.php">Ver</button>
+          </div>
+        </div>
+        <div class="card" style="width: 15rem;" id="cardpromo">
+          <img src="imagens/pizza1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Aqui tem uma Pizza muito gostosa hmmmmm.</p>
+            <button type="button" class="btn btn-success" href="/pags/carrinho.php">Ver</button>
+          </div>
+        </div>
+        <div class="card" style="width: 15rem;" id="cardpromo">
+          <img src="imagens/pizza1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Aqui tem uma Pizza muito gostosa hmmmmm.</p>
+            <button type="button" class="btn btn-success" href="/pags/carrinho.php">Ver</button>
+          </div>
+        </div><br>
+
+      </div>
+      <div id="retapromo" class="retapromo">
+
+        <div class="card" style="width: 15rem;" id="cardpromo">
+          <img src="imagens/pizza1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Aqui tem uma Pizza muito gostosa hmmmmmm.</p>
+            <button type="button" class="btn btn-success" href="/pags/carrinho.php">Ver</button>
+          </div>
+
+        </div>
+        <div class="card" style="width: 15rem;" id="cardpromo">
+          <img src="imagens/pizza1.png" class="card-img-top" alt="...">
+
+          <div class="card-body">
+            <p class="card-text">Aqui tem uma Pizza muito gostosa hmmmmmm.</p>
+
+
+            <button type="button" class="btn btn-success" href="/pags/carrinho.php">Ver</button>
+          </div>
+        </div>
+        <div class="card" style="width: 15rem;" id="cardpromo">
+          <img src="imagens/pizza1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Aqui tem uma Pizza muito gostosa hmmmmmm.</p>
+            <button type="button" class="btn btn-success" href="/pags/carrinho.php">Ver</button>
+          </div>
+
+        </div>
+        <div class="card" style="width: 15rem;" id="cardpromo">
+          <img src="imagens/pizza1.png" class="card-img-top" alt="...">
+
+          <div class="card-body">
+            <p class="card-text">Aqui tem uma Pizza muito gostosa hmmmmmm.</p>
+
+
+            <button type="button" class="btn btn-success" href="/pags/carrinho.php">Ver</button>
+          </div>
+        </div><br>
+
+
+
+      </div>
+
+      <div id="retapromo" class="retapromo">
+
+        <div class="card" style="width: 15rem;" id="cardpromo">
+          <img src="imagens/pizza1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Aqui tem uma Pizza muito gostosa hmmmmm.</p>
+            <button type="button" class="btn btn-success" href="/pags/carrinho.php">Ver</button>
+          </div>
+        </div>
+        <div class="card" style="width: 15rem;" id="cardpromo">
+          <img src="imagens/pizza1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Aqui ha uma Pizza muito gostosa hmmmmmm.</p>
+            <button type="button" class="btn btn-success" href="/pags/carrinho.php">Ver</button>
+          </div>
+        </div>
+        <div class="card" style="width: 15rem;" id="cardpromo">
+          <img src="imagens/pizza1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Aqui ha uma Pizza muito gostosa hmmmmm.</p>
+            <button type="button" class="btn btn-success" href="/pags/carrinho.php">Ver</button>
+          </div>
+        </div>
+        <div class="card" style="width: 15rem;" id="cardpromo">
+          <img src="imagens/pizza1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Aqui ha uma Pizza muito gostosa hmmmmmm.</p>
+            <button type="button" class="btn btn-success" href="/pags/carrinho.php">Ver</button>
+          </div>
+        </div><br>
+
+      </div>
+
+
     </div>
+  </div>
 
 </body>
 
