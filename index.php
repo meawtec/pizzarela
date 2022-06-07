@@ -62,19 +62,21 @@ if (isset($_COOKIE['email'])) {
           <?php
           if ($ademiro) :
           ?>
-            <a nome="alterar" id="alterar" class="nav-link active" aria-current="page" href="pags/alterar.php">Gerenciar usuários</a>
+            <a nome="alterar" id="alterar" class="nav-link active" aria-current="page" href="pags/alterar.php">Gerenciar contas</a>
+            </li>
+            
+          <?php
+            if(isset($_COOKIE['email'])):
+          ?>
+          <form action="pags/logout.php" method="POST">
+            <button type="submit" class="logout" href="#" onclick="deleteCookies()">Logout</button>
+          </form>
+          
+          <?php endif; ?>
+
+            <a nome="alterar" id="alterar" class="nav-link active" aria-current="page" href="pags/alterarp.php">alterar -pizzas</a>
             </li>
 
-
-            <?php
-            if (isset($_COOKIE['email'])) :
-            ?>
-              <form action="pags/logout.php" method="POST">
-                <button type="submit" class="logout" href="#" onclick="deleteCookies()">Logout</button>
-              </form>
-
-
-            <?php endif; ?>
 
           <?php
           endif

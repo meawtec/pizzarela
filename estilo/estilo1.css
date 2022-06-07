@@ -58,9 +58,9 @@ body{
     align-items: flex-start;
 }.gmail{
     color: aliceblue;
-    align-items: flex-end;
+    
     padding: 10px;
-    padding-left: 500px;
+    /*padding-left: 400px;*/
     cursor: pointer;
     
 }body .averde{
