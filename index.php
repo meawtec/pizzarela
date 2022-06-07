@@ -62,7 +62,7 @@ if (isset($_COOKIE['email'])) {
           <?php
           if ($ademiro) :
           ?>
-            <a nome="alterar" id="alterar" class="nav-link active" aria-current="page" href="pags/alterar.php">Alterar</a>
+            <a nome="alterar" id="alterar" class="nav-link active" aria-current="page" href="pags/alterar.php">Gerenciar usuarios</a>
             </li>
 
           <?php
@@ -74,7 +74,7 @@ if (isset($_COOKIE['email'])) {
           
           <?php endif; ?>
 
-            <a nome="alterar" id="alterar" class="nav-link active" aria-current="page" href="pags/alterarp.php">Alterar</a>
+            <a nome="alterar" id="alterar" class="nav-link active" aria-current="page" href="pags/alterarp.php">Alterar pizzas</a>
             </li>
 
 
