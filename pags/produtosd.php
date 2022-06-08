@@ -22,7 +22,7 @@ if (isset($_COOKIE['email'])) {
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
 
-  <link href="../estilo/estilo1.css" rel="stylesheet">
+  <link href="../estilo/estilo3.css" rel="stylesheet">
   <meta charset="UTF-8">
   <title>Pizzaria</title>
 </head>
@@ -62,15 +62,15 @@ if (isset($_COOKIE['email'])) {
           ?>
             <a nome="alterar" id="alterar" class="nav-link active" aria-current="page" href="pags/alterar.php">Gerenciar contas</a>
             </li>
-            
-          <?php
-            if(isset($_COOKIE['email'])):
-          ?>
-          <form action="pags/logout.php" method="POST">
-            <button type="submit" class="logout" href="#" onclick="deleteCookies()">Logout</button>
-          </form>
-          
-          <?php endif; ?>
+
+            <?php
+            if (isset($_COOKIE['email'])) :
+            ?>
+              <form action="pags/logout.php" method="POST">
+                <button type="submit" class="logout" href="#" onclick="deleteCookies()">Logout</button>
+              </form>
+
+            <?php endif; ?>
 
             <a nome="alterar" id="alterar" class="nav-link active" aria-current="page" href="pags/alterarp.php">alterar pizzas</a>
             </li>
@@ -95,12 +95,22 @@ if (isset($_COOKIE['email'])) {
     </div>
   </nav>
 
-<div>
-    <img src="../imagens/pizza1.png" alt="">
-    <h2>Calabresa</h2>
-    <p >tem calabresa ;)</p>
-    <a href=""><button type="button" class="btn btn-primary">R$ 22,50</button></a>
-</div>
+  <div>
+      <h2>Calabresa</h2>
+    <img class="done" src="../imagens/pizza1.png" alt="">
+
+      <p class="one">tem calabresa ;)</p>
+
+    <a class="comp" href="">
+      <button type="button" class="btn btn-primary">Apatir de R$ 22,50</button></a>
+
+
+
+
+
+
+
+  </div>
 </body>
 
 </html>

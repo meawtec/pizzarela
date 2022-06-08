@@ -1,0 +1,128 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+.divpromo {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    align-items: center;
+
+
+}
+
+.promocoes {
+    background-color: rgb(0, 207, 138);
+    border-radius: 20px;
+    align-items: center;
+
+
+}
+
+li {
+    padding-inline-start: 20px;
+
+}
+.card {
+    align-items: center;
+
+    /*background-color:red;*/
+
+    background-color: rgb(226, 65, 65);
+
+    border-radius: 30px;
+
+    border-color: rgb(0, 207, 138);
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+
+}
+
+.retapromo {
+    align-items: center;
+    width: 100%;
+    display: inline-block;
+
+    padding: 5px;
+    text-decoration: none;
+
+
+}
+
+.cardp {
+    width: 100%;
+    border-radius: 20px;
+    padding-left: 10px;
+
+}
+
+.cardapio {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.olhar {
+    align-items: flex-start;
+}
+
+.gmail {
+    color: aliceblue;
+    position: relative;
+    right: -50px;
+    right: -400px;
+    padding: 10px;
+    /*padding-left: 400px;*/
+    cursor: pointer;
+
+}
+
+body .averde {
+    text-decoration: none;
+    color: black;
+    transition: 1s;
+
+}
+
+.btn {
+    transition: 1s;
+    padding-left: 70px;
+}
+.one {
+    color:black ;
+    padding-left: 20px;
+}.done{
+    padding-left: -20px;
+}h2{
+    width: 60%;
+    position: absolute;
+    padding: 10px;
+}.comp{
+    width: 100%;
+    
+}
+.navbar {
+    background-color: teal;
+}
+
+.row {
+    padding: 5px;
+}
+
+.logout {
+    background-color: transparent;
+    border-radius: 100px;
+    border: none;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+    color: aliceblue;
+    transition: 1s;
+
+}
