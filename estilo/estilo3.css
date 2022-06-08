@@ -91,19 +91,23 @@ body .averde {
 
 .btn {
     transition: 1s;
-    padding-left: 70px;
+    background-color: cadetblue;
+    border: none;
 }
 .one {
     color:black ;
     padding-left: 20px;
 }.done{
-    padding-left: -20px;
+    align-items: flex-start;
 }h2{
-    width: 60%;
-    position: absolute;
+    width: 80%;
+    position: relative;
     padding: 10px;
+    color:dimgray;
 }.comp{
     width: 100%;
+    align-items: flex-end;
+    
     
 }
 .navbar {
@@ -125,4 +129,6 @@ body .averde {
     color: aliceblue;
     transition: 1s;
 
+}.container{
+    margin-left: 0%;
 }

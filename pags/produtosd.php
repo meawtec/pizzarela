@@ -96,21 +96,30 @@ if (isset($_COOKIE['email'])) {
   </nav>
 
   <div>
-      <h2>Calabresa</h2>
-    <img class="done" src="../imagens/pizza1.png" alt="">
+    <h2>Calabresa</h2>
+    <!--<img class="done" src="../imagens/pizza1.png" alt="">
 
-      <p class="one">tem calabresa ;)</p>
+    <p class="one">tem calabresa ;)</p>!-->
+    <div class="container">
+      <div class="row row-cols-auto">
+        <div class="col">
+          <img class="done" src="../imagens/pizza1.png" alt="">
 
-    <a class="comp" href="">
-      <button type="button" class="btn btn-primary">Apatir de R$ 22,50</button></a>
+        </div>
+        <div class="col">
+          <p class="one">tem calabresa ;) </p>
 
 
 
 
+        </div>
+      </div>
+      <a class="comp" href="">
+        <button type="button" class="btn">Apatir de R$ 22,50</button></a>
+    </div>
 
 
 
-  </div>
 </body>
 
 </html>
