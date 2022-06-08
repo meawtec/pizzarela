@@ -19,3 +19,12 @@ echo"<script language='javascript' type='text/javascript'>
 
                         link para ocultar senha
             https://acervolima.com/mostrar-e-ocultar-a-senha-usando-javascript/
+
+ <div class="card" style="width: 15rem;" id="cardpromo">
+          <img src="imagens/pizza1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Aqui tem uma Pizza muito gostosa hmmmmmm.</p>
+            <a type="button" class="btn btn-success" href="pags/produtosd.php">Ver</a>
+          </div>
+
+        </div>
