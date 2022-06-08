@@ -32,7 +32,7 @@ if (isset($_COOKIE['email'])) {
   <nav class="navbar navbar-expand-lg navbar-dark ">
     <div class="container-fluid">
 
-      <a class="navbar-brand" href="index.php">Pizzarela</a>
+      <a class="navbar-brand" href="../index.php">Pizzarela</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -41,18 +41,18 @@ if (isset($_COOKIE['email'])) {
 
           <li class="nav-item">
 
-            <a class="nav-link active" aria-current="page" href="pags/peça.php">Peça online</a>
+            <a class="nav-link active" aria-current="page" href="peça.php">Peça online</a>
           </li>
-          <a class="nav-link active" aria-current="page" href="pags/cardapio.php">Cardapio</a>
+          <a class="nav-link active" aria-current="page" href="cardapio.php">Cardapio</a>
           </li>
-          <a class="nav-link active" aria-current="page" href="pags/sobrenos.php">Sobre nos</a>
+          <a class="nav-link active" aria-current="page" href="sobrenos.php">Sobre nos</a>
           </li>
           <?php
           if (!isset($_COOKIE['email'])) :
           ?>
-            <a class="nav-link active" aria-current="page" href="pags/criarPage.php">Criar</a>
+            <a class="nav-link active" aria-current="page" href="criarPage.php">Criar</a>
             </li>
-            <a class="nav-link active" aria-current="page" href="pags/loginPage.php">Entrar</a>
+            <a class="nav-link active" aria-current="page" href="loginPage.php">Entrar</a>
             </li>
           <?php
           endif
@@ -60,7 +60,7 @@ if (isset($_COOKIE['email'])) {
           <?php
           if ($ademiro) :
           ?>
-            <a nome="alterar" id="alterar" class="nav-link active" aria-current="page" href="pags/alterar.php">Gerenciar contas</a>
+            <a nome="alterar" id="alterar" class="nav-link active" aria-current="page" href="alterar.php">Gerenciar contas</a>
             </li>
             
           <?php
@@ -72,7 +72,7 @@ if (isset($_COOKIE['email'])) {
           
           <?php endif; ?>
 
-            <a nome="alterar" id="alterar" class="nav-link active" aria-current="page" href="pags/alterarp.php">alterar pizzas</a>
+            <a nome="alterar" id="alterar" class="nav-link active" aria-current="page" href="alterarp.php">alterar pizzas</a>
             </li>
 
 
