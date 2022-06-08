@@ -50,8 +50,9 @@ li {
 }
 
 .retapromo {
-    align-items: center;
-    display: inline-table;
+    width: 50%;
+    display:flex;
+    direction: rtl;
     padding: 5px;
     text-decoration: none;
 

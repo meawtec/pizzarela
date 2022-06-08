@@ -106,7 +106,7 @@ if (isset($_COOKIE['email'])) {
           <img src="imagens/pizza1.png" class="card-img-top" alt="...">
           <div class="card-body">
             <p class="card-text">Aqui tem uma Pizza muito gostosa hmmmmmm.</p>
-            <button type="button" class="btn btn-success" href="/pags/carrinho.php">Ver</button>
+            <button type="button" class="btn btn-success"     href="pags/peça.php">Ver</button>
           </div>
 
         </div>
@@ -224,7 +224,7 @@ if (isset($_COOKIE['email'])) {
           <img src="imagens/pizza1.png" class="card-img-top" alt="...">
           <div class="card-body">
             <p class="card-text">Aqui tem uma Pizza muito gostosa hmmmmm.</p>
-            <button type="button" class="btn btn-success" href="/pags/carrinho.php">Ver</button>
+            <button type="button" class="btn btn-success" href="pags/carrinho.php">Ver</button>
           </div>
         </div>
         <div class="card" style="width: 15rem;" id="cardpromo">
@@ -250,6 +250,7 @@ if (isset($_COOKIE['email'])) {
         </div><br>
 
       </div>
+      
 
 
     </div>
