@@ -1,28 +1,36 @@
-body{
-    
+body {
+
     margin: 0;
     padding: 0;
     margin: 0 auto;
     width: 100%;
 
 
-}.divpromo{
+}
+
+.divpromo {
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 20px;
     align-items: center;
-    
 
-}.promocoes{
-    background-color:rgb(0, 207, 138);
+
+}
+
+.promocoes {
+    background-color: rgb(0, 207, 138);
     border-radius: 20px;
     align-items: center;
-    
-    
-}li{
+
+
+}
+
+li {
     padding-inline-start: 20px;
 
-}.card{
+}
+
+.card {
     align-items: center;
 
     /*background-color:red;*/
@@ -39,52 +47,76 @@ body{
     padding: 10px;
     display: flex;
 
-}.retapromo{
+}
+
+.retapromo {
     align-items: center;
     display: inline-table;
-    padding:5px;
+    padding: 5px;
     text-decoration: none;
-    
 
-}.cardp{
+
+}
+
+.cardp {
     width: 100%;
     border-radius: 20px;
     padding-left: 10px;
 
-}.cardapio{
+}
+
+.cardapio {
     border-radius: 10px;
     padding: 10px;
-}.olhar{
+}
+
+.olhar {
     align-items: flex-start;
-}.gmail{
+}
+
+.gmail {
     color: aliceblue;
-    
+    position: relative;
+    right: -50px;
+    right: -400px;
     padding: 10px;
     /*padding-left: 400px;*/
     cursor: pointer;
-    
-}body .averde{
+
+}
+
+body .averde {
     text-decoration: none;
     color: black;
     transition: 1s;
-    
-}.btn{
+
+}
+
+.btn {
     transition: 1s;
-}p{
+}
+
+p {
     color: aliceblue;
-}.navbar{
+}
+
+.navbar {
     background-color: teal;
-}.row{
+}
+
+.row {
     padding: 5px;
-}.logout{
+}
+
+.logout {
     background-color: transparent;
     border-radius: 100px;
     border: none;
-    padding-top:10px;
+    padding-top: 10px;
     padding-left: 5px;
     padding-right: 5px;
     cursor: pointer;
     color: aliceblue;
     transition: 1s;
-    
+
 }

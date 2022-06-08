@@ -42,8 +42,6 @@ if (isset($_COOKIE['email'])) {
 
           <li class="nav-item">
 
-
-
             <a class="nav-link active" aria-current="page" href="peça.php">Peça online</a>
           </li>
           <a class="nav-link active" aria-current="page" href="cardapio.php">Cardapio</a>
