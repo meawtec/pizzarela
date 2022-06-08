@@ -12,14 +12,14 @@ if (!empty($_GET['id'])) {
 
     if ($_SERVER['REQUEST_METHOD'] == "POST") {
         $nome = $_POST['Nome'];
-        $email = $_POST['Email'];
-        $senha = $_POST['Senha'];
-        $admin = $_POST['Admin'] ?? 0;
+        $ingredientes = $_POST['Ingredientes'];
+        $preco = $_POST['Preco'];
+        
 
-        $sqlUpdate = "UPDATE pizzas SET nome = '$nome', email = '$email', senha = '$senha', adm = '$admin' WHERE id = '$id' ";
+        $sqlUpdate = "UPDATE pizzas SET nome = '$nome', ingredientes = '$ingredientes', preco = '$preco' WHERE id = '$id' ";
         $sql = mysqli_query($conexao, $sqlUpdate);
 
-        header('Location: alterar.php');
+        header('Location: alterarp.php');
     }
 }
 
@@ -81,15 +81,15 @@ if (!empty($_GET['id'])) {
 
             <h2>Alterar</h2>
 
-            <form method="post" action="edit.php?id=<?php echo $id ?>" name="f1" id="form">
-            <div>preço</div>
+            <form method="post" action="editP.php?id=<?php echo $id ?>" name="f1" id="form">
+            <div>Nome</div>
                 <input type="text" name="Nome" class="Nome" placeholder="Nome" value="<?php echo $user['nome'] ?>" required>
                 <br><br>
-                <div>preço</div>
-                <input type="text" name="Email" class="Email" onblur="validacaoEmail(f1.email)" value="<?php echo $user['ingredientes'] ?>" placeholder="Email" required>
+                <div>Ingredientes</div>
+                <input type="text" name="Ingredientes" class="Email"  value="<?php echo $user['ingredientes'] ?>" placeholder="Ingredientes" required>
                 <br><br>
-                <div>preço</div>
-                <input type="text" name="Senha" class="Senha" placeholder="Senha" value="<?php echo $user['preco'] ?>" required>
+                <div>Preço</div>
+                <input type="text" name="Preco" class="Senha" placeholder="Preco" value="<?php echo $user['preco'] ?>" required>
                 <br><br>
                 
                 <div class="afk">

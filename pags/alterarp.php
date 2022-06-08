@@ -29,6 +29,12 @@ $Sresult = $conexao->query($select);
             <h6>Voltar</h6>
         </button>
     </a>
+
+    <a class="voltar" href="../index.php">
+        <button class="volt btn btn-success ">
+            <h6>Adicionar</h6>
+        </button>
+    </a>
     <br>
     <div>
         <table class="table table-success table-striped">
@@ -36,8 +42,8 @@ $Sresult = $conexao->query($select);
                 <tr>
                     <th scope="col">ID</th>
                     <th scope="col">Nome</th>
-                    <th scope="col">Email</th>
-                    <th scope="col">Senha</th>
+                    <th scope="col">Ingredientes</th>
+                    <th scope="col">Preço</th>
                    
                     <th scope="col">Alterar </th>
                 </tr>
