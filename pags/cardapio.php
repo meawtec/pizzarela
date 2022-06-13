@@ -106,7 +106,7 @@ if (isset($_COOKIE['email'])) {
       <div class="promocoes">
         <div class="row">
 
-          <a href="../index.php" class="averde">
+          <a href="pizzas.php" class="averde">
             <div class="cardapio mb-3 navbar navbar-expand-lg  bg-success ">
               <div class="row g-0">
                 <div class="col-md-4">
@@ -115,7 +115,7 @@ if (isset($_COOKIE['email'])) {
                 <div class="col-md-8">
                   <div class="card-body">
                     <h5 class="card-title">Pizzas</h5>
-                    <p class="card-text">Pizzas gostosas, muito mais muito gostosas.</p>
+                    <p class="card-text">Pizas deliciosas, hmm que sabor!!</p>
 
 
                   </div>
@@ -125,7 +125,7 @@ if (isset($_COOKIE['email'])) {
           </a>
 
 
-          <a href="../index.php" class="averde">
+          <a href="acomp.php" class="averde">
             <div class="cardapio mb-3 navbar navbar-expand-lg  bg-success ">
               <div class="row g-0">
                 <div class="col-md-4">
@@ -133,8 +133,8 @@ if (isset($_COOKIE['email'])) {
                 </div>
                 <div class="col-md-8">
                   <div class="card-body">
-                    <h5 class="card-title">Bebidas</h5>
-                    <p class="card-text">Bebidas gostosas, muito mais muito gostosas.</p>
+                    <h5 class="card-title">Acompanhamentos</h5>
+                    <p class="card-text">Delícia, uma delícia!</p>
 
 
 
@@ -144,7 +144,7 @@ if (isset($_COOKIE['email'])) {
             </div>
           </a>
 
-          <a href="../index.php" class="averde">
+          <a href="burgao.php" class="averde">
             <div class="cardapio mb-3 navbar navbar-expand-lg  bg-success ">
               <div class="row g-0">
                 <div class="col-md-4">
@@ -153,7 +153,7 @@ if (isset($_COOKIE['email'])) {
                 <div class="col-md-8">
                   <div class="card-body">
                     <h5 class="card-title">Hamburguers</h5>
-                    <p class="card-text">Hamburguers gostosas, muito mais muito gostosas.</p>
+                    <p class="card-text">Hamburgueres gostosos!</p>
 
 
                   </div>
@@ -162,47 +162,7 @@ if (isset($_COOKIE['email'])) {
             </div>
           </a>
 
-          <a href="../index.php" class="averde">
-            <div class="cardapio mb-3 navbar navbar-expand-lg  bg-success ">
-              <div class="row g-0">
-                <div class="col-md-4">
-                  <img src="../imagens/Refri.png" class="img-fluid rounded-start" alt="...">
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    <h5 class="card-title">Acompanhamentos</h5>
-                    <p class="card-text">batata frita deliciosa entre outros acompanhamentos.</p>
-
-
-                  </div>
-                </div>
-              </div>
-            </div>
-          </a>
-
-
-          <a href="../index.php" class="averde">
-            <div class="cardapio mb-3 navbar navbar-expand-lg  bg-success ">
-              <div class="row g-0">
-                <div class="col-md-4">
-                  <img src="../imagens/Refri.png" class="img-fluid rounded-start" alt="...">
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    <h5 class="card-title">Acompanhamentos</h5>
-                    <p class="card-text">batata frita deliciosa entre outros acompanhamentos.</p>
-
-
-                  </div>
-                </div>
-              </div>
-            </div>
-          </a>
-
-        </div>
-      </div>
-
-
+        
 
 </body>
 
