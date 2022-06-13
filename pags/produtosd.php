@@ -89,6 +89,14 @@ if (isset($_COOKIE['email'])) {
 
 
             ?>
+             <?php
+            if (isset($_COOKIE['email'])) :
+            ?>
+              <form action="logout.php" method="POST">
+                <button type="submit" class="logout" href="#" onclick="deleteCookies()">Logout</button>
+              </form>
+
+            <?php endif; ?>
           </h6>
 
       </div>
@@ -107,7 +115,8 @@ if (isset($_COOKIE['email'])) {
 
         </div>
         <div class="col">
-          <p class="one">tem calabresa ;) </p>
+            <h1>Ingredientes</h1>
+          <p class="one">-Molho de tomate<br> -Muçarela <br> -Calabresa <br> -Oregano <br> -Cebola <br> -Azeitona  </p>
 
 
 
