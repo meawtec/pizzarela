@@ -93,8 +93,10 @@ if (isset($_COOKIE['email'])) {
   </nav>
 
   <div>
-
-
+        <a href="Produtosd.php">-PIZZA 1</a><br>
+        <a href="Produtosd.php">-PIZZA 1</a><br>
+        <a href="Produtosd.php">-PIZZA 1</a><br>
+        <a href="Produtosd.php">-PIZZA 1</a><br>
   </div>
 
 </body>
