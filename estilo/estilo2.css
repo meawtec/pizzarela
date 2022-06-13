@@ -21,12 +21,26 @@ body {
     border-radius: 10px;
     align-items: center;
 }.gmail {
-    color: white;
-    align-items: flex-end;
+    color: aliceblue;
+    position: relative;
+    
+    right: -400px;
     padding: 10px;
+    /*padding-left: 400px;*/
+    cursor: pointer;
 
 }.nav-link{
     background-color: transparent;
+}.logout{
+    background-color: transparent;
+    border-radius: 100px;
+    border: none;
+    padding-top: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+    color: aliceblue;
+    transition: 1s;
 }
 
 p {
