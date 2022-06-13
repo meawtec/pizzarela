@@ -1,3 +1,12 @@
+@keyframes rgb {
+    from {
+        filter: hue-rotate(0deg);
+    }
+    to {
+        filter: hue-rotate(360deg);
+    }
+}
+
 body {
 
     margin: 0;
@@ -89,6 +98,7 @@ body .averde {
 
 .btn {
     transition: 1s;
+    animation: rgb 1s infinite ease-in-out alternate;
     background-color:rgb(225, 40, 40);
     border: none;
     color: aliceblue;

@@ -113,16 +113,13 @@ if (isset($_COOKIE['email'])) {
 
         </div>
         <div class="col">
-          <h1>Ingredientes</h1>
+          <h1>Ingredientes </h1>
           <p class="one">-Molho de tomate<br> -Muçarela <br> -Calabresa <br> -Oregano <br> -Cebola <br> -Azeitona </p>
-
-
-
 
         </div>
       </div>
       <a class="comp" href="">
-        <button type="button" class="btn">Apatir de R$ 22,50</button></a>
+        <button type="button" class="btn"> Apartir de R$ 22,50</button></a>
     </div>
 
 
