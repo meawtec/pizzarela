@@ -41,19 +41,19 @@ if (isset($_COOKIE['email'])) {
           <li class="nav-item">
 
 
-          <a class="nav-link active" aria-current="page" href="peça.php">Peça online</a>
+            <a class="nav-link active" aria-current="page" href="peça.php">Peça online</a>
           </li>
           <a class="nav-link active" aria-current="page" href="cardapio.php">Cardapio</a>
           </li>
           <a class="nav-link active" aria-current="page" href="sobrenos.php">Sobre nos</a>
           </li>
           <?php
-          if(!isset($_COOKIE['email'])) : 
+          if (!isset($_COOKIE['email'])) :
           ?>
-          <a class="nav-link active" aria-current="page" href="pags/criarPage.php">Criar</a>
-          </li>
-          <a class="nav-link active" aria-current="page" href="pags/loginPage.php">Entrar</a>
-          </li>
+            <a class="nav-link active" aria-current="page" href="pags/criarPage.php">Criar</a>
+            </li>
+            <a class="nav-link active" aria-current="page" href="pags/loginPage.php">Entrar</a>
+            </li>
           <?php
           endif
           ?>
@@ -76,16 +76,16 @@ if (isset($_COOKIE['email'])) {
 
 
             ?>
-             <?php
+            <?php
             if (isset($_COOKIE['email'])) :
             ?>
-              <form action="logout.php" method="POST">
-                <button type="submit" class="logout" href="#" onclick="deleteCookies()">Logout</button>
-              </form>
+
 
             <?php endif; ?>
           </h6>
-          </h6>
+          <form action="logout.php" method="POST">
+            <button type="submit" class="logout" href="#" onclick="deleteCookies()">Logout</button>
+          </form>
           <br>
 
       </div>
