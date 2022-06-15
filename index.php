@@ -109,7 +109,7 @@ if (isset($_COOKIE['email'])) {
           <div class="card-body">
             <p class="card-text">Aqui tem uma Pizza muito gostosa hmmmmmm.</p>
 
-            <a type="button" class="btn btn-success" href="pags/produtosd.php">Ver</a>
+            <a  id="f" type="button" class="btn btn-success" href="pags/produtosd.php">Ver</a>
 
           </div>
 

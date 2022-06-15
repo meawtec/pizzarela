@@ -91,12 +91,13 @@ if (isset($_COOKIE['email'])) {
       </div>
     </div>
   </nav>
-
-  <div>
-
-
+  <div class="center">
+    <a href="">
+      <button class="obut">
+        Click-me
+      </button>
+    </a>
   </div>
-
 </body>
 
 </html>

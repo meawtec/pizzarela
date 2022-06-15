@@ -118,6 +118,7 @@ if (isset($_COOKIE['email'])) {
 
         </div>
       </div>
+      <p class="pro"><big>Promoção</big></p>
       <a class="comp" href="">
         <button type="button" class="btn"> Apartir de R$ 22,50</button></a>
     </div>
