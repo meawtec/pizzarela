@@ -88,13 +88,13 @@ if (isset($_COOKIE['email'])) {
               <?php
               if (isset($_COOKIE['email'])) :
               ?>
-
+<form action="logout.php" method="POST">
+              <button type="submit" class="logout" href="#" onclick="deleteCookies()">Logout</button>
+            </form>
 
               <?php endif; ?>
             </h6>
-            <form action="logout.php" method="POST">
-              <button type="submit" class="logout" href="#" onclick="deleteCookies()">Logout</button>
-            </form>
+            
             <br>
 
       </div>

@@ -51,9 +51,9 @@ if (isset($_COOKIE['email'])) {
           <?php
           if (!isset($_COOKIE['email'])) :
           ?>
-            <a class="nav-link active" aria-current="page" href="pags/criarPage.php">Criar</a>
+            <a class="nav-link active" aria-current="page" href="criarPage.php">Criar</a>
             </li>
-            <a class="nav-link active" aria-current="page" href="pags/loginPage.php">Entrar</a>
+            <a class="nav-link active" aria-current="page" href=" loginPage.php">Entrar</a>
             </li>
           <?php
           endif
@@ -88,12 +88,12 @@ if (isset($_COOKIE['email'])) {
               if (isset($_COOKIE['email'])) :
               ?>
 
-
-              <?php endif; ?>
-            </h6>
-            <form action="logout.php" method="POST">
+<form action="logout.php" method="POST">
               <button type="submit" class="logout" href="#" onclick="deleteCookies()">Logout</button>
             </form>
+              <?php endif; ?>
+            </h6>
+           
             <br>
   </nav>
 
