@@ -25,7 +25,7 @@ if (isset($_COOKIE['email'])) {
   <link href="../estilo/estilo2.css" rel="stylesheet">
 
   <meta charset="UTF-8">
-  <title>Pizzaria</title>
+  <title>Pizzaria '-'</title>
 
 </head>
 
@@ -116,16 +116,22 @@ if (isset($_COOKIE['email'])) {
           </ul>
           <div class="tab-content" id="pills-tabContent">
             <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
-              1TEXTO <br>TExto e mais <br>
-              texto
+              <p class="dent">
+              Ponha seu endereço:
+              <br>TExto e mais <br>
+              texto</p>
             </div>
             <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
-              2TEXTO <br>TExto e mais <br>
-              texto
+              <p class="dent">
+              2TEXTO 
+              <br>TExto e mais <br>
+              texto</p>
             </div>
             <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
-              3TEXTO <br>TExto e mais <br>
-              texto
+              <p class="dent">
+              3TEXTO 
+              <br>TExto e mais <br>
+              texto</p>
             </div>
           </div>
 

@@ -20,6 +20,7 @@ body {
     padding: 20px;
     border-radius: 10px;
     align-items: center;
+    
 }.gmail {
     color: aliceblue;
     position: relative;
@@ -41,6 +42,8 @@ body {
     cursor: pointer;
     color: aliceblue;
     transition: 1s;
+}.dent  {
+    color: aliceblue;
 }
 
 p {

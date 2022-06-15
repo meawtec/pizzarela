@@ -91,11 +91,10 @@ body .averde {
     transition: 1s;
 
 }
-
 .btn {
     transition: 1s;
+    
 }
-
 p {
     color: aliceblue;
 }
@@ -119,4 +118,20 @@ p {
     color: aliceblue;
     transition: 1s;
 
+}.obut{
+    
+    animation: rgb 1s infinite ease-in-out alternate;
+    background-color:  rgb(255, 0, 0);
+    border-radius: 100%;
+    align-items: center;
+    padding: 200px;
+    margin: 0%;
+    color: aliceblue;
+    
+    border-bottom: 10px;
+    transition: 1s;
+}.center{
+    padding-left: 36%;
+    padding-top: 15%;
+    padding-right: 30%;
 }

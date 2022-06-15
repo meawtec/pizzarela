@@ -7,7 +7,7 @@
     }
 }
 
-body {
+body {  
 
     margin: 0;
     padding: 0;
@@ -110,7 +110,7 @@ body .averde {
     align-items: flex-start;
 }h2{
     padding-left: 10px;
-    width: 80%;
+    width: 100%;
     position: relative;
     padding: 10px;
     color:rgb(0, 0, 0);
@@ -119,7 +119,9 @@ body .averde {
     align-items: flex-end;
     padding: 5px;
     
-    
+}.pro{
+    animation: rgb 1s infinite ease-in-out alternate;
+    color:rgb(225, 40, 40);
 }
 .navbar {
     background-color: teal;
@@ -141,7 +143,8 @@ body .averde {
     transition: 1s;
 
 }.container{
-    padding: 5px;
+    width: 100%;
+    padding: 20px;
     margin-left: 1%;
     background-color: rgb(98, 163, 98);
     border-radius: 10px;
